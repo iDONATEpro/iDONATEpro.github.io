@@ -218,6 +218,25 @@ section.hero { padding: 0; }
 }
 .why-card .icon-box { width: 2.5rem; height: 2.5rem; background: var(--brand-bright); color: #fff; margin-bottom: 1rem; }
 .why-card p { color: #cbd5e1; margin-top: 0.5rem; }
+.why-bubble {
+  position: relative;
+  margin: 2.5rem auto 0;
+  max-width: 46rem;
+  background: #fff;
+  color: #0f172a;
+  border-radius: 24px;
+  padding: 1.75rem 2rem;
+}
+.why-bubble::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 2.25rem;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+.why-bubble p { font-size: 1.05rem; line-height: 1.7; }
 
 .quote-grid { display: grid; gap: 1.25rem; }
 .quote { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 1.75rem; }
