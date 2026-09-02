@@ -40,6 +40,26 @@
     menuBtn.addEventListener("click", () => panel.classList.toggle("open"));
   }
 
+
+  const rotateEl = document.querySelector("[data-rotate]");
+  if (rotateEl) {
+    const lines = [
+      "The Only CRM Built for Every Party, Every Campaign, Every Consultant.",
+      "Switch to iDONATEpro in Days, Not Months.",
+      "Unlimited Campaigns. Unlimited Clients. One Account.",
+      "Best in the Business Since 2009..."
+    ];
+    let i = 0;
+    setInterval(() => {
+      i = (i + 1) % lines.length;
+      rotateEl.style.opacity = "0";
+      setTimeout(() => {
+        rotateEl.textContent = lines[i];
+        rotateEl.style.opacity = "1";
+      }, 220);
+    }, 3800);
+  }
+
   const prices = {
     political: { monthly: [150, 275, 350, 575], annual: [1650, 3025, 3850, 6325] },
     nonprofit: { monthly: [60, 120, 250, 400], annual: [660, 1320, 2750, 4400] }

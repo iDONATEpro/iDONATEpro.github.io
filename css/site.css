@@ -116,14 +116,16 @@ p, ul { margin: 0; }
     radial-gradient(circle at top left, rgba(122,193,66,0.35), transparent 35%),
     linear-gradient(135deg, rgba(15,23,42,0.96), rgba(15,23,42,0.86));
 }
-.hero-grid { position: relative; display: grid; gap: 4rem; padding: 6rem 0 7rem; }
+.hero-grid { position: relative; display: grid; gap: 2.5rem; padding: 1.25rem 0 4rem; align-items: start; }
+.hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.6rem); max-width: 18ch; }
 .eyebrow {
-  display: inline-flex; align-items: center; min-height: 2.25rem;
+  display: inline-flex; align-items: center; min-height: 2.25rem; margin-top: 1.15rem;
   border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.1);
   border-radius: 9999px; padding: 0.5rem 1rem; font-size: 0.875rem; font-weight: 500;
+  transition: opacity 0.25s ease;
 }
 .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); }
-.lede { margin-top: 1.5rem; font-size: 1.25rem; font-weight: 600; color: #cbd5e1; max-width: 42rem; }
+.lede { margin-top: 0.85rem; font-size: 1.25rem; font-weight: 600; color: #cbd5e1; max-width: 42rem; }
 .since { margin-top: 0.5rem; color: var(--brand-bright); font-weight: 500; }
 .feature-pills { margin-top: 2rem; display: grid; gap: 0.75rem; padding: 0; }
 .feature-pills li {
