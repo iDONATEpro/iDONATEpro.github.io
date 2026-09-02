@@ -117,25 +117,29 @@ p, ul { margin: 0; }
     linear-gradient(135deg, rgba(15,23,42,0.96), rgba(15,23,42,0.86));
 }
 .hero-grid { position: relative; display: grid; gap: 2.5rem; padding: 1rem 0 3.5rem; align-items: stretch; }
-.hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.6rem); max-width: 18ch; }
-.hero-proof { margin-top: 1.6rem; display: grid; gap: 0.85rem; max-width: 36rem; }
+.hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.6rem); max-width: 18ch; text-align: center; margin-inline: auto; }
+.hero-proof { margin-top: 1.6rem; display: grid; gap: 0.85rem; max-width: 36rem; margin-inline: auto; text-align: center; justify-items: center; }
 .eyebrow {
-  display: grid; grid-template-rows: 1.45em 1.2em; row-gap: 0.15rem; align-content: center;
+  display: grid; grid-template-rows: 1.45em 1.2em; row-gap: 0.15rem; align-content: center; justify-items: center; text-align: center; width: 100%;
   box-sizing: border-box;
   height: 4.6rem; min-height: 4.6rem; max-height: 4.6rem; overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.18); background: rgba(255,255,255,0.1);
-  border-radius: 1.35rem; padding: 0.7rem 1.2rem; font-size: 1.02rem; font-weight: 500;
-  line-height: 1.4; transition: opacity 0.25s ease, background 0.15s ease, border-color 0.15s ease; cursor: pointer;
+  background: #fff; color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 1.5rem; padding: 0.7rem 1.2rem; font-size: 1.02rem; font-weight: 500;
+  line-height: 1.4; box-shadow: 0 12px 28px rgba(0,0,0,0.22);
+  transition: opacity 0.25s ease, border-color 0.15s ease, box-shadow 0.15s ease; cursor: pointer;
 }
 .eyebrow .quote-text {
   min-width: 0; max-width: 100%;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  color: var(--ink);
 }
-.eyebrow .quote-name { color: var(--brand-bright); font-weight: 700; white-space: nowrap; font-size: 0.9rem; }
+.eyebrow .quote-name { color: var(--brand); font-weight: 700; white-space: nowrap; font-size: 0.9rem; }
 .eyebrow:hover, .eyebrow:focus-visible {
-  background: rgba(122,193,66,0.18); border-color: var(--brand-bright); color: #fff;
+  border-color: var(--brand);
+  box-shadow: 0 16px 32px rgba(125,164,71,0.22);
 }
-.eyebrow:focus-visible { outline: 2px solid var(--brand-bright); outline-offset: 3px; }
+.eyebrow:focus-visible { outline: 2px solid var(--brand); outline-offset: 3px; }
 
 
 .icp-stack {
