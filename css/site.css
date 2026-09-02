@@ -116,7 +116,7 @@ p, ul { margin: 0; }
     radial-gradient(circle at top left, rgba(122,193,66,0.35), transparent 35%),
     linear-gradient(135deg, rgba(15,23,42,0.96), rgba(15,23,42,0.86));
 }
-.hero-grid { position: relative; display: grid; gap: 2.5rem; padding: 1rem 0 3.5rem; align-items: start; }
+.hero-grid { position: relative; display: grid; gap: 2.5rem; padding: 1rem 0 3.5rem; align-items: stretch; }
 .hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.6rem); max-width: 18ch; }
 .eyebrow {
   display: inline-flex; align-items: center; flex-wrap: wrap; gap: 0.35rem 0.5rem;
@@ -132,19 +132,25 @@ p, ul { margin: 0; }
 .eyebrow:focus-visible { outline: 2px solid var(--brand-bright); outline-offset: 3px; }
 
 
-.icp-stack { display: grid; gap: 0.75rem; align-content: start; }
+.icp-stack {
+  display: grid; gap: 0.75rem; height: 100%;
+  grid-template-rows: auto 1fr 1fr 1fr;
+}
 .icp-label {
   margin: 0; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.18em;
   text-transform: uppercase; color: var(--brand-bright);
 }
 .icp-card {
   background: #fff; color: var(--ink); border-radius: 1.15rem;
-  padding: 1rem 1.15rem; box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  padding: 1.15rem 1.25rem; box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+  display: flex; flex-direction: column; justify-content: center;
 }
-.icp-card h3 { font-size: 1.05rem; }
-.icp-card p { margin-top: 0.4rem; color: #475569; font-size: 0.84rem; line-height: 1.45; }
+.icp-card .icon-box { width: 2.5rem; height: 2.5rem; margin-bottom: 0.7rem; }
+.icp-card h3 { font-size: 1.08rem; }
+.icp-card p { margin-top: 0.4rem; color: #475569; font-size: 0.86rem; line-height: 1.45; }
 .icp-card.accent { background: var(--brand); color: #fff; }
 .icp-card.accent p { color: rgba(255,255,255,0.9); }
+.icp-card.accent .icon-box { background: rgba(255,255,255,0.18); color: #fff; }
 
 .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); }
 .lede { margin-top: 0.85rem; font-size: 1.25rem; font-weight: 600; color: #cbd5e1; max-width: 42rem; }
