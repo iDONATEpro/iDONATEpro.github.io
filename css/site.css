@@ -168,10 +168,12 @@ p, ul { margin: 0; }
 .feature-pills { margin-top: 2rem; display: grid; gap: 0.75rem; padding: 0; }
 .feature-pills li {
   display: flex; align-items: center; gap: 0.75rem;
-  background: rgba(255,255,255,0.05); border-radius: 0.75rem;
-  padding: 0.75rem 1rem; font-size: 0.875rem; font-weight: 500; color: #e2e8f0; list-style: none;
+  background: #fff; color: #334155;
+  border-radius: 0.9rem;
+  padding: 0.75rem 1rem; font-size: 0.875rem; font-weight: 600; list-style: none;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.22);
 }
-.feature-pills svg { flex-shrink: 0; color: var(--brand-bright); }
+.feature-pills svg { flex-shrink: 0; color: var(--brand); }
 .hero-ctas { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .btn-ghost-light { border: 1px solid rgba(255,255,255,0.2); color: #fff; background: transparent; }
 .btn-ghost-light:hover { background: rgba(255,255,255,0.1); }
