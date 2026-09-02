@@ -43,21 +43,25 @@
 
   const rotateEl = document.querySelector("[data-rotate]");
   if (rotateEl) {
-    const lines = [
-      "The Only CRM Built for Every Party, Every Campaign, Every Consultant.",
-      "Switch to iDONATEpro in Days, Not Months.",
-      "Unlimited Campaigns. Unlimited Clients. One Account.",
-      "Best in the Business Since 2009..."
+    const quotes = [
+      { text: "iDONATEpro is simply the best.", name: "Matthew" },
+      { text: "It's given Fundraisers the secret weapon to raising money.", name: "Claire" },
+      { text: "iDONATEpro is so much better for fundraising!", name: "Molly" },
+      { text: "The Cleanest, Easiest to use CRM I have ever used.", name: "Zac" }
     ];
+    function renderQuote(q) {
+      rotateEl.innerHTML = "\u201c" + q.text + "\u201d <span class=\"quote-name\">\u2014 " + q.name + "</span>";
+    }
+    renderQuote(quotes[0]);
     let i = 0;
     setInterval(() => {
-      i = (i + 1) % lines.length;
+      i = (i + 1) % quotes.length;
       rotateEl.style.opacity = "0";
       setTimeout(() => {
-        rotateEl.textContent = lines[i];
+        renderQuote(quotes[i]);
         rotateEl.style.opacity = "1";
       }, 220);
-    }, 3800);
+    }, 4500);
   }
 
   const prices = {
