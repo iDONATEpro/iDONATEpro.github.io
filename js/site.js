@@ -6,6 +6,12 @@
         user2: "https://idonatepro.chargify.com/subscribe/6vs458c3f62p/monthly-organization-plan",
         office: "https://idonatepro.chargify.com/subscribe/dmsn7y3jnwqm/monthly-office-plan",
         enterprise: "https://idonatepro.chargify.com/subscribe/ksj98nzhyk2y/monthly-enterprise-plan"
+      },
+      nonprofit: {
+        user1: "https://idonatepro.chargify.com/subscribe/yhc7bbwc8f8w/monthly-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargify.com/subscribe/ndgg3sjsjqft/monthly-non-profit-organization-plan",
+        office: "https://idonatepro.chargify.com/subscribe/kt4j2hvh9x6b/monthly-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargify.com/subscribe/tztfz4mrgsbq/monthly-non-profit-enterprise-plan"
       }
     },
     trial: {
@@ -14,6 +20,26 @@
         user2: "https://idonatepro.chargify.com/subscribe/m84kgx46kj8m/30-day-trial-monthly-organization-plan",
         office: "https://idonatepro.chargify.com/subscribe/kg3vzxxrz245/30-day-trial-monthly-office-plan",
         enterprise: "https://idonatepro.chargify.com/subscribe/pw25x642msjt/30-day-trial-monthly-enterprise-plan"
+      },
+      nonprofit: {
+        user1: "https://idonatepro.chargify.com/subscribe/8ym9z4gfx9sv/30-day-trial-monthly-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargify.com/subscribe/sv3w5978jpkw/30-day-trial-monthly-non-profit-organization-plan",
+        office: "https://idonatepro.chargify.com/subscribe/cv6fsyjxdkjy/30-day-trial-monthly-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargify.com/subscribe/fyyhccqrs5kq/30-day-trial-monthly-non-profit-enterprise-plan"
+      }
+    },
+    annual: {
+      political: {
+        user1: "https://idonatepro.chargify.com/subscribe/btcb33gpvhfc/annual-fundraiser-plan",
+        user2: "https://idonatepro.chargify.com/subscribe/gd7jvdzgp8zf/annual-organization-plan",
+        office: "https://idonatepro.chargify.com/subscribe/5885vwr53r8p/annual-office-plan",
+        enterprise: "https://idonatepro.chargify.com/subscribe/whzgy7pf2p3t/annual-enterprise-plan"
+      },
+      nonprofit: {
+        user1: "https://idonatepro.chargify.com/subscribe/jdymx8kcr9rc/annual-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargify.com/subscribe/3wbz7bbn77x4/annual-non-profit-organization-plan",
+        office: "https://idonatepro.chargify.com/subscribe/wytx8vvndd6n/annual-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargify.com/subscribe/m9xbcrh4txmc/annual-non-profit-enterprise-plan"
       }
     }
   };
@@ -107,10 +133,6 @@
         a.removeAttribute("rel");
         a.textContent = "Start 14-Day Trial";
       });
-      if (missingNote) {
-        const missing = cycle === "annual" || audience === "nonprofit";
-        missingNote.classList.toggle("hidden", !missing);
-      }
     }
 
     audienceBtns.forEach((btn) => {
@@ -154,17 +176,17 @@
     const hint = signupRoot.querySelector("[data-hint]");
 
     function currentUrl() {
-      if (nonprofit || term === "annual") return null;
-      return (chargify[term] && chargify[term].political && chargify[term].political[users]) || null;
+      const audience = nonprofit ? "nonprofit" : "political";
+      return (chargify[term] && chargify[term][audience] && chargify[term][audience][users]) || null;
     }
 
     function refresh() {
       const url = currentUrl();
       if (hint) {
         hint.textContent = nonprofit
-          ? "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly, billed annually at 11 months. Chargify nonprofit checkout IDs were not in the captured site, so we will connect you by email or demo."
+          ? "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly. Annual billing is 11 times monthly (save 1 month)."
           : term === "annual"
-            ? "Annual plans are billed at 11 times the monthly rate (save 1 month). Chargify annual checkout IDs were not in the captured site."
+            ? "Annual plans are billed at 11 times the monthly rate (save 1 month)."
             : "Test with up to 3 Worksheets and 3 Campaigns — 14-day trial.";
       }
       if (url) {
