@@ -50,7 +50,7 @@
       { text: "The Cleanest, Easiest to use CRM I have ever used.", name: "Zac" }
     ];
     function renderQuote(q) {
-      rotateEl.innerHTML = "\u201c" + q.text + "\u201d <span class=\"quote-name\">\u2014 " + q.name + "</span>";
+      rotateEl.innerHTML = "<span class=\"quote-text\">\u201c" + q.text + "\u201d</span><span class=\"quote-name\">\u2014 " + q.name + "</span>";
     }
     renderQuote(quotes[0]);
     let i = 0;
