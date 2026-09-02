@@ -123,9 +123,29 @@ p, ul { margin: 0; }
   max-width: 38rem; min-height: 2.25rem; margin-top: 1.15rem;
   border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.1);
   border-radius: 1.25rem; padding: 0.55rem 1.1rem; font-size: 0.9rem; font-weight: 500;
-  line-height: 1.45; transition: opacity 0.25s ease;
+  line-height: 1.45; transition: opacity 0.25s ease, background 0.15s ease, border-color 0.15s ease; cursor: pointer;
 }
 .eyebrow .quote-name { color: var(--brand-bright); font-weight: 700; white-space: nowrap; }
+.eyebrow:hover, .eyebrow:focus-visible {
+  background: rgba(122,193,66,0.18); border-color: var(--brand-bright); color: #fff;
+}
+.eyebrow:focus-visible { outline: 2px solid var(--brand-bright); outline-offset: 3px; }
+
+
+.icp-stack { display: grid; gap: 0.75rem; align-content: start; }
+.icp-label {
+  margin: 0; font-size: 0.72rem; font-weight: 800; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--brand-bright);
+}
+.icp-card {
+  background: #fff; color: var(--ink); border-radius: 1.15rem;
+  padding: 1rem 1.15rem; box-shadow: 0 18px 40px rgba(0,0,0,0.18);
+}
+.icp-card h3 { font-size: 1.05rem; }
+.icp-card p { margin-top: 0.4rem; color: #475569; font-size: 0.84rem; line-height: 1.45; }
+.icp-card.accent { background: var(--brand); color: #fff; }
+.icp-card.accent p { color: rgba(255,255,255,0.9); }
+
 .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); }
 .lede { margin-top: 0.85rem; font-size: 1.25rem; font-weight: 600; color: #cbd5e1; max-width: 42rem; }
 .since { margin-top: 0.5rem; color: var(--brand-bright); font-weight: 500; }
@@ -139,21 +159,6 @@ p, ul { margin: 0; }
 .hero-ctas { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 1rem; }
 .btn-ghost-light { border: 1px solid rgba(255,255,255,0.2); color: #fff; background: transparent; }
 .btn-ghost-light:hover { background: rgba(255,255,255,0.1); }
-
-.switch-card {
-  border: 1px solid rgba(255,255,255,0.1);
-  background: rgba(255,255,255,0.08);
-  border-radius: var(--radius); padding: 1.5rem;
-  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.3);
-}
-.switch-inner { background: #fff; color: var(--ink); border-radius: 24px; padding: 1.5rem; }
-.switch-top { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #f1f5f9; padding-bottom: 1rem; }
-.crm-pill { background: var(--brand-soft); color: var(--brand-strong); border-radius: 9999px; padding: 0.25rem 0.75rem; font-size: 0.8rem; font-weight: 700; height: fit-content; }
-.switch-list { margin-top: 1.5rem; display: grid; gap: 1rem; }
-.switch-item { display: flex; gap: 0.75rem; background: #f8fafc; border-radius: 1rem; padding: 1rem; font-size: 0.9rem; color: #334155; }
-.dot { margin-top: 0.45rem; width: 0.625rem; height: 0.625rem; border-radius: 9999px; background: var(--brand-bright); flex-shrink: 0; }
-.edge { margin-top: 1.5rem; background: var(--navy); color: #fff; border-radius: 1rem; padding: 1.25rem; }
-.edge .kicker { color: #94a3b8; letter-spacing: 0.2em; }
 
 section { padding: 6rem 0; }
 section.hero { padding: 0; }
