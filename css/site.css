@@ -219,8 +219,8 @@ section.hero { padding: 0; }
 .why-card .icon-box { width: 2.5rem; height: 2.5rem; background: var(--brand-bright); color: #fff; margin-bottom: 1rem; }
 .why-card p { color: #cbd5e1; margin-top: 0.5rem; }
 .quote-grid { display: grid; gap: 1.25rem; }
-.quote { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 1.75rem; }
-.quote p { font-size: 1.05rem; line-height: 1.7; }
+.quote { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 1.75rem; color: var(--ink); }
+.quote p { font-size: 1.05rem; line-height: 1.7; color: var(--ink); }
 .quote cite { display: block; margin-top: 1rem; font-style: normal; font-weight: 700; color: var(--brand); }
 
 .price-hero { background: var(--navy); color: #fff; padding: 4rem 0; text-align: center; }
