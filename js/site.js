@@ -2,44 +2,44 @@
   const chargify = {
     monthly: {
       political: {
-        user1: "https://idonatepro.chargify.com/subscribe/x53c5mjpp24k/monthly-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/6vs458c3f62p/monthly-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/dmsn7y3jnwqm/monthly-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/ksj98nzhyk2y/monthly-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/x53c5mjpp24k/monthly-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/6vs458c3f62p/monthly-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/dmsn7y3jnwqm/monthly-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/ksj98nzhyk2y/monthly-enterprise-plan"
       },
       nonprofit: {
-        user1: "https://idonatepro.chargify.com/subscribe/yhc7bbwc8f8w/monthly-non-profit-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/ndgg3sjsjqft/monthly-non-profit-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/kt4j2hvh9x6b/monthly-non-profit-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/tztfz4mrgsbq/monthly-non-profit-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/yhc7bbwc8f8w/monthly-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/ndgg3sjsjqft/monthly-non-profit-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/kt4j2hvh9x6b/monthly-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/tztfz4mrgsbq/monthly-non-profit-enterprise-plan"
       }
     },
     trial: {
       political: {
-        user1: "https://idonatepro.chargify.com/subscribe/f9753bp8xqnn/30-day-trial-monthly-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/m84kgx46kj8m/30-day-trial-monthly-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/kg3vzxxrz245/30-day-trial-monthly-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/pw25x642msjt/30-day-trial-monthly-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/f9753bp8xqnn/30-day-trial-monthly-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/m84kgx46kj8m/30-day-trial-monthly-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/kg3vzxxrz245/30-day-trial-monthly-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/pw25x642msjt/30-day-trial-monthly-enterprise-plan"
       },
       nonprofit: {
-        user1: "https://idonatepro.chargify.com/subscribe/8ym9z4gfx9sv/30-day-trial-monthly-non-profit-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/sv3w5978jpkw/30-day-trial-monthly-non-profit-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/cv6fsyjxdkjy/30-day-trial-monthly-non-profit-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/fyyhccqrs5kq/30-day-trial-monthly-non-profit-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/8ym9z4gfx9sv/30-day-trial-monthly-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/sv3w5978jpkw/30-day-trial-monthly-non-profit-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/cv6fsyjxdkjy/30-day-trial-monthly-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/fyyhccqrs5kq/30-day-trial-monthly-non-profit-enterprise-plan"
       }
     },
     annual: {
       political: {
-        user1: "https://idonatepro.chargify.com/subscribe/btcb33gpvhfc/annual-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/gd7jvdzgp8zf/annual-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/5885vwr53r8p/annual-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/whzgy7pf2p3t/annual-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/btcb33gpvhfc/annual-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/gd7jvdzgp8zf/annual-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/5885vwr53r8p/annual-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/whzgy7pf2p3t/annual-enterprise-plan"
       },
       nonprofit: {
-        user1: "https://idonatepro.chargify.com/subscribe/jdymx8kcr9rc/annual-non-profit-fundraiser-plan",
-        user2: "https://idonatepro.chargify.com/subscribe/3wbz7bbn77x4/annual-non-profit-organization-plan",
-        office: "https://idonatepro.chargify.com/subscribe/wytx8vvndd6n/annual-non-profit-office-plan",
-        enterprise: "https://idonatepro.chargify.com/subscribe/m9xbcrh4txmc/annual-non-profit-enterprise-plan"
+        user1: "https://idonatepro.chargifypay.com/subscribe/jdymx8kcr9rc/annual-non-profit-fundraiser-plan",
+        user2: "https://idonatepro.chargifypay.com/subscribe/3wbz7bbn77x4/annual-non-profit-organization-plan",
+        office: "https://idonatepro.chargifypay.com/subscribe/wytx8vvndd6n/annual-non-profit-office-plan",
+        enterprise: "https://idonatepro.chargifypay.com/subscribe/m9xbcrh4txmc/annual-non-profit-enterprise-plan"
       }
     }
   };
@@ -170,18 +170,49 @@
       npBtn.classList.toggle("on", nonprofit);
       npBtn.setAttribute("aria-pressed", nonprofit ? "true" : "false");
     }
-    const frame = signupRoot.querySelector("#chargifyFrame");
     const fallback = signupRoot.querySelector("[data-fallback]");
     const direct = signupRoot.querySelectorAll("[data-direct]");
     const hint = signupRoot.querySelector("[data-hint]");
+    const lede = document.querySelector("[data-signup-lede]");
+    const trialOnly = document.querySelectorAll("[data-trial-only]");
+    const holder = signupRoot.querySelector(".iframe-frame");
 
     function currentUrl() {
       const audience = nonprofit ? "nonprofit" : "political";
       return (chargify[term] && chargify[term][audience] && chargify[term][audience][users]) || null;
     }
 
+    function setFrame(url) {
+      const frame = signupRoot.querySelector("#chargifyFrame");
+      if (!url) {
+        if (frame) {
+          frame.removeAttribute("src");
+          frame.classList.add("hidden");
+        }
+        return;
+      }
+      if (frame && frame.getAttribute("src") === url) {
+        frame.classList.remove("hidden");
+        return;
+      }
+      const next = document.createElement("iframe");
+      next.id = "chargifyFrame";
+      next.title = "iDONATEpro Sign Up";
+      next.name = "chargifyframe";
+      next.setAttribute("sandbox", "allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation");
+      next.src = url;
+      if (frame) frame.replaceWith(next);
+      else if (holder) holder.prepend(next);
+    }
+
     function refresh() {
       const url = currentUrl();
+      if (lede) {
+        lede.textContent = term === "trial"
+          ? "Simple pricing designed to fit any fundraising budget. Free 14-day trial."
+          : "Simple pricing designed to fit any fundraising budget.";
+      }
+      trialOnly.forEach((el) => el.classList.toggle("hidden", term !== "trial"));
       if (hint) {
         if (term === "annual") {
           hint.textContent = "1 Month Free - 11 Months Billed";
@@ -195,20 +226,14 @@
         }
       }
       if (url) {
-        if (frame) {
-          frame.src = url;
-          frame.classList.remove("hidden");
-        }
+        setFrame(url);
         if (fallback) fallback.classList.add("hidden");
         direct.forEach((a) => {
           a.href = url;
           a.classList.remove("hidden");
         });
       } else {
-        if (frame) {
-          frame.removeAttribute("src");
-          frame.classList.add("hidden");
-        }
+        setFrame(null);
         if (fallback) fallback.classList.remove("hidden");
         direct.forEach((a) => a.classList.add("hidden"));
       }
