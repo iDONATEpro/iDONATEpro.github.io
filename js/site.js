@@ -217,6 +217,9 @@
         if (term === "annual") {
           hint.textContent = "1 Month Free - 11 Months Billed";
           hint.classList.remove("hidden");
+        } else if (term === "trial") {
+          hint.textContent = "Test with up to 3 Worksheets and 3 Campaigns.";
+          hint.classList.remove("hidden");
         } else if (nonprofit) {
           hint.textContent = "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly.";
           hint.classList.remove("hidden");
