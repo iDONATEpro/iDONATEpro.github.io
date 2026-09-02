@@ -90,31 +90,22 @@
         el.textContent = cycle === "monthly" ? "/mo" : "/yr";
       });
       const keys = ["user1", "user2", "office", "enterprise"];
+      function signupHref(term, usersKey) {
+        let href = "/signup/?term=" + encodeURIComponent(term) + "&users=" + encodeURIComponent(usersKey);
+        if (audience === "nonprofit") href += "&nonprofit=1";
+        return href + "#checkout";
+      }
       signupLinks.forEach((a, i) => {
-        const url = chargify.monthly[audience] && chargify.monthly[audience][keys[i]];
-        if (cycle === "monthly" && url) {
-          a.href = url;
-          a.target = "_blank";
-          a.rel = "noopener noreferrer";
-          a.textContent = "Sign Up";
-        } else {
-          a.href = "/signup/";
-          a.removeAttribute("target");
-          a.textContent = "Request this plan";
-        }
+        a.href = signupHref(cycle === "annual" ? "annual" : "monthly", keys[i]);
+        a.removeAttribute("target");
+        a.removeAttribute("rel");
+        a.textContent = "Sign Up";
       });
       trialLinks.forEach((a, i) => {
-        const url = chargify.trial[audience] && chargify.trial[audience][keys[i]];
-        if (url) {
-          a.href = url;
-          a.target = "_blank";
-          a.rel = "noopener noreferrer";
-          a.textContent = "Start 14-Day Trial";
-        } else {
-          a.href = "/signup/";
-          a.removeAttribute("target");
-          a.textContent = "Start 14-Day Trial";
-        }
+        a.href = signupHref("trial", keys[i]);
+        a.removeAttribute("target");
+        a.removeAttribute("rel");
+        a.textContent = "Start 14-Day Trial";
       });
       if (missingNote) {
         const missing = cycle === "annual" || audience === "nonprofit";
@@ -144,9 +135,19 @@
     let term = "trial";
     let nonprofit = false;
     let users = "user1";
+    const params = new URLSearchParams(location.search);
+    if ({ trial: 1, monthly: 1, annual: 1 }[params.get("term")]) term = params.get("term");
+    if ({ user1: 1, user2: 1, office: 1, enterprise: 1 }[params.get("users")]) users = params.get("users");
+    if (params.get("nonprofit") === "1") nonprofit = true;
     const termBtns = signupRoot.querySelectorAll("[data-term]");
     const userBtns = signupRoot.querySelectorAll("[data-users]");
     const npBtn = signupRoot.querySelector("[data-nonprofit]");
+    termBtns.forEach((b) => b.classList.toggle("active", b.dataset.term === term));
+    userBtns.forEach((b) => b.classList.toggle("active", b.dataset.users === users));
+    if (npBtn) {
+      npBtn.classList.toggle("on", nonprofit);
+      npBtn.setAttribute("aria-pressed", nonprofit ? "true" : "false");
+    }
     const frame = signupRoot.querySelector("#chargifyFrame");
     const fallback = signupRoot.querySelector("[data-fallback]");
     const direct = signupRoot.querySelectorAll("[data-direct]");
