@@ -261,6 +261,20 @@ section.hero { padding: 0; }
 .plan.featured .plan-meta { border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.85); }
 .plan-actions { margin-top: 1.5rem; display: grid; gap: 0.5rem; }
 .note { text-align: center; color: #64748b; font-size: 0.875rem; margin-top: 1.5rem; }
+.user-defs {
+  display: grid;
+  gap: 1rem;
+  margin: 1.75rem auto 0;
+  max-width: 46rem;
+}
+.user-defs div {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  padding: 1.15rem 1.25rem;
+}
+.user-defs strong { display: block; color: #0f172a; font-size: 0.95rem; }
+.user-defs p { color: #64748b; font-size: 0.875rem; margin-top: 0.35rem; line-height: 1.5; }
 
 .two-col { display: grid; gap: 2rem; margin-top: 3.5rem; }
 .check-list { list-style: none; padding: 0; margin-top: 1.5rem; display: grid; gap: 0.75rem; }
@@ -354,6 +368,7 @@ section.hero { padding: 0; }
 @media (min-width: 768px) {
   .caps-grid { grid-template-columns: 1fr 1fr; }
   .quote-grid { grid-template-columns: 1fr 1fr; }
+  .user-defs { grid-template-columns: 1fr 1fr; }
 }
 @media (min-width: 1024px) {
   .hero-grid { grid-template-columns: 1fr 1fr; }
