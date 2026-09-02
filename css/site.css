@@ -184,7 +184,7 @@ section.hero { padding: 0; }
 .bg-navy { background: var(--navy); color: #fff; }
 .bg-mint { background: var(--brand-soft); }
 
-.caps-grid { margin-top: 3.5rem; display: grid; gap: 1.25rem; }
+.caps-grid { margin-top: 1.25rem; display: grid; gap: 1.25rem; }
 .cap {
   background: #f8fafc; border: 1px solid var(--line); border-radius: 24px; padding: 1.75rem;
   transition: 0.15s ease;
