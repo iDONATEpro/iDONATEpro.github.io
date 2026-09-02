@@ -183,11 +183,16 @@
     function refresh() {
       const url = currentUrl();
       if (hint) {
-        hint.textContent = nonprofit
-          ? "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly. Annual billing is 11 times monthly (save 1 month)."
-          : term === "annual"
-            ? "Annual plans are billed at 11 times the monthly rate (save 1 month)."
-            : "Test with up to 3 Worksheets and 3 Campaigns — 14-day trial.";
+        if (term === "annual") {
+          hint.textContent = "1 Month Free - 11 Months Billed";
+          hint.classList.remove("hidden");
+        } else if (nonprofit) {
+          hint.textContent = "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly.";
+          hint.classList.remove("hidden");
+        } else {
+          hint.textContent = "";
+          hint.classList.add("hidden");
+        }
       }
       if (url) {
         if (frame) {
