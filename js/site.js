@@ -165,7 +165,7 @@
           ? "Nonprofit 501(c) pricing is $60 / $120 / $250 / $400 monthly, billed annually at 11 months. Chargify nonprofit checkout IDs were not in the captured site, so we will connect you by email or demo."
           : term === "annual"
             ? "Annual plans are billed at 11 times the monthly rate (save 1 month). Chargify annual checkout IDs were not in the captured site."
-            : "Test with up to 3 Worksheets and 3 Campaigns — 14-day trial, no credit card required to start.";
+            : "Test with up to 3 Worksheets and 3 Campaigns — 14-day trial.";
       }
       if (url) {
         if (frame) {
