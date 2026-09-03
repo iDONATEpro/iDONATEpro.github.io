@@ -1,90 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
-  <symbol id="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="1.6" y="1.6" width="9.3" height="9.3" rx="2.4"/>
-  <rect x="13.1" y="1.6" width="9.3" height="9.3" rx="2.4"/>
-  <rect x="1.6" y="13.1" width="9.3" height="9.3" rx="2.4"/>
-  <rect x="13.1" y="13.1" width="9.3" height="9.3" rx="2.4"/>
+  <symbol id="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.2" y="1.2" width="9.6" height="9.6" rx="2.3"/>
+  <rect x="13.2" y="1.2" width="9.6" height="9.6" rx="2.3"/>
+  <rect x="1.2" y="13.2" width="9.6" height="9.6" rx="2.3"/>
+  <rect x="13.2" y="13.2" width="9.6" height="9.6" rx="2.3"/>
   </symbol>
-  <symbol id="contacts" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="8.4" cy="6.3" r="3.7"/>
-  <path d="M2.2 21.3v-1.5c0-3.4 2.75-6 6.2-6s6.2 2.6 6.2 6v1.5"/>
-  <circle cx="16.7" cy="7.4" r="2.85"/>
-  <path d="M21.8 21.3v-1.2c0-2.65-2.15-4.7-4.9-4.7-.9 0-1.75.2-2.5.6"/>
+  <symbol id="contacts" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8.2" cy="6.2" r="4"/>
+  <path d="M1.6 21.8v-1.3c0-3.6 2.95-6.4 6.6-6.4s6.6 2.8 6.6 6.4v1.3"/>
+  <circle cx="16.8" cy="7.4" r="3.05"/>
+  <path d="M22.3 21.8v-1.1c0-2.7-2.2-4.8-5-4.8-.85 0-1.65.2-2.35.55"/>
   </symbol>
-  <symbol id="find" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="10.4" cy="10.4" r="8.1"/>
-  <path d="m16.4 16.4 5.7 5.7"/>
+  <symbol id="find" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="10.3" cy="10.3" r="8.5"/>
+  <path d="m16.6 16.6 5.8 5.8"/>
   </symbol>
-  <symbol id="groups" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="4.4" cy="5.9" r="2.35"/>
-  <path d="M8.2 5.9h12.5"/>
-  <circle cx="4.4" cy="12" r="2.35"/>
-  <path d="M8.2 12h12.5"/>
-  <circle cx="4.4" cy="18.1" r="2.35"/>
-  <path d="M8.2 18.1h12.5"/>
+  <symbol id="groups" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="4.2" cy="5.7" r="2.55"/>
+  <path d="M8.3 5.7h12.4"/>
+  <circle cx="4.2" cy="12" r="2.55"/>
+  <path d="M8.3 12h12.4"/>
+  <circle cx="4.2" cy="18.3" r="2.55"/>
+  <path d="M8.3 18.3h12.4"/>
   </symbol>
-  <symbol id="events" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="1.7" y="3.8" width="20.6" height="18.5" rx="2.8"/>
-  <path d="M1.7 9.3h20.6"/>
-  <path d="M7 1.7v3.9"/>
-  <path d="M17 1.7v3.9"/>
-  <path d="m7.6 15.5 2.7 2.7 6-6"/>
+  <symbol id="events" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.3" y="3.4" width="21.4" height="19.3" rx="2.6"/>
+  <path d="M1.3 9h21.4"/>
+  <path d="M7 1.3v3.6"/>
+  <path d="M17 1.3v3.6"/>
+  <path d="m7.4 15.6 3 3 6.4-6.4"/>
   </symbol>
-  <symbol id="calls" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="4.4" y="1.6" width="15.2" height="20.8" rx="3.2"/>
-  <path d="M8.6 4.5h6.8"/>
-  <path d="M8.9 19.6h6.2"/>
+  <symbol id="calls" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.8" y="1.2" width="16.4" height="21.6" rx="3.3"/>
+  <path d="M8.6 4.3h6.8"/>
   </symbol>
-  <symbol id="communications" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="1.6" y="3.8" width="20.8" height="16.4" rx="2.8"/>
-  <path d="m2.7 7 7.9 5.2c.8.52 1.8.52 2.6 0L21.3 7"/>
+  <symbol id="communications" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.2" y="3.4" width="21.6" height="17.2" rx="2.6"/>
+  <path d="m2.4 6.8 8.2 5.5c.8.55 1.9.55 2.7 0l8.3-5.5"/>
   </symbol>
-  <symbol id="financials" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 1.6v20.8"/>
-  <path d="M18.2 5.4H8.7c-2.25 0-3.85 1.65-3.85 3.5 0 2 1.6 3.2 4 3.2h4.9c2.45 0 4 1.3 4 3.4 0 2.15-1.75 3.65-4.25 3.65H6.1"/>
+  <symbol id="financials" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 1.2v21.6"/>
+  <path d="M19 4.8H8.2c-2.5 0-4.2 1.8-4.2 3.8 0 2.15 1.75 3.45 4.35 3.45h5.2c2.6 0 4.35 1.4 4.35 3.7 0 2.3-1.9 3.95-4.6 3.95H5.4"/>
   </symbol>
-  <symbol id="donations" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="1.6" y="5.1" width="20.8" height="13.8" rx="2.6"/>
-  <circle cx="12" cy="12" r="3.55"/>
-  <path d="M5 8.3v7.4M19 8.3v7.4"/>
+  <symbol id="donations" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.2" y="4.8" width="21.6" height="14.4" rx="2.5"/>
+  <circle cx="12" cy="12" r="3.8"/>
   </symbol>
-  <symbol id="pledges" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="3.5" y="1.6" width="17" height="20.8" rx="2.6"/>
-  <path d="M7.4 4.4h9.2"/>
-  <path d="m7.3 13.4 3.1 3.1 6.4-6.5"/>
+  <symbol id="pledges" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.1" y="1.2" width="17.8" height="21.6" rx="2.5"/>
+  <path d="m7.2 13.2 3.3 3.3 6.8-6.9"/>
   </symbol>
-  <symbol id="campaigns" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M12 1.5v2"/>
-  <path d="M8.4 8.5c0-2.5 1.6-4.5 3.6-4.5s3.6 2 3.6 4.5"/>
-  <path d="M7.4 8.5h9.2"/>
-  <path d="M3.3 10.4h17.4"/>
-  <path d="M3.3 10.4v8.6h17.4v-8.6"/>
-  <path d="M6.5 10.4v8.6M9.8 10.4v8.6M14.2 10.4v8.6M17.5 10.4v8.6"/>
-  <path d="M1.6 19h20.8"/>
-  <path d="M2.8 22.1h18.4"/>
+  <symbol id="campaigns" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 1.2v2.1"/>
+  <path d="M7.8 8.6c0-2.7 1.85-4.8 4.2-4.8s4.2 2.1 4.2 4.8"/>
+  <path d="M3 10.2h18"/>
+  <path d="M3 10.2v8.6h18v-8.6"/>
+  <path d="M8 10.2v8.6M12 10.2v8.6M16 10.2v8.6"/>
+  <path d="M1.2 18.8h21.6"/>
+  <path d="M2.6 22.4h18.8"/>
   </symbol>
-  <symbol id="data" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="4.6" y="1.6" width="15.6" height="7.6" rx="2.1"/>
-  <rect x="2.4" y="8.2" width="15.6" height="7.6" rx="2.1"/>
-  <rect x="4.6" y="14.8" width="15.6" height="7.6" rx="2.1"/>
+  <symbol id="data" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4.2" y="1.2" width="16.4" height="8" rx="2.1"/>
+  <rect x="1.8" y="8" width="16.4" height="8" rx="2.1"/>
+  <rect x="4.2" y="14.8" width="16.4" height="8" rx="2.1"/>
   </symbol>
-  <symbol id="admin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M1.6 7.2h20.8"/>
-  <circle cx="8.2" cy="7.2" r="2.7"/>
-  <path d="M1.6 16.8h20.8"/>
-  <circle cx="15.8" cy="16.8" r="2.7"/>
+  <symbol id="admin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1.2 6.8h21.6"/>
+  <circle cx="7.8" cy="6.8" r="3"/>
+  <path d="M1.2 17.2h21.6"/>
+  <circle cx="16.2" cy="17.2" r="3"/>
   </symbol>
-  <symbol id="reports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M4.4 21.4V10.4"/>
-  <path d="M12 21.4V2.6"/>
-  <path d="M19.6 21.4V7"/>
+  <symbol id="reports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 21.8V9.6"/>
+  <path d="M12 21.8V2.2"/>
+  <path d="M20 21.8V6.4"/>
   </symbol>
-  <symbol id="calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="1.7" y="3.8" width="20.6" height="18.5" rx="2.8"/>
-  <path d="M1.7 9.3h20.6"/>
-  <path d="M7 1.7v3.9"/>
-  <path d="M17 1.7v3.9"/>
-  <rect x="8.6" y="12.4" width="6.8" height="4.8" rx="1.1"/>
+  <symbol id="calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="1.3" y="3.4" width="21.4" height="19.3" rx="2.6"/>
+  <path d="M1.3 9h21.4"/>
+  <path d="M7 1.3v3.6"/>
+  <path d="M17 1.3v3.6"/>
+  <rect x="8.4" y="12.2" width="7.2" height="5.4" rx="1.2"/>
   </symbol>
 </svg>
