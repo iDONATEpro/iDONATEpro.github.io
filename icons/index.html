@@ -7,7 +7,7 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Locked iDp icon set versus Lucide.">
 <link rel="icon" href="/favicon.ico">
-<link rel="stylesheet" href="/css/site.css?v=46">
+<link rel="stylesheet" href="/css/site.css?v=47">
 <style>
 section.compare-board { padding: 3.25rem 0 5rem; background: var(--bg); }
 section.compare-board .wrap-board { width: min(72rem, calc(100% - 3rem)); margin-inline: auto; }
@@ -30,6 +30,14 @@ h3 span { font-weight:500; color:#94a3b8; font-size:12px; margin-left:8px; }
 .navy { background:var(--navy); color:var(--brand-bright); }
 .white { background:#fff; border:1px solid var(--line); color:var(--ink); }
 
+
+.dev-notes { background:#fff; border:1px solid var(--line); border-radius:24px; padding:22px 24px 20px; margin:28px 0 0; }
+.dev-notes h2 { font-family:Archivo,Inter,sans-serif; font-size:18px; letter-spacing:-.03em; margin:0 0 8px; }
+.dev-notes p, .dev-notes li { color:#475569; font-size:14px; line-height:1.55; margin:0 0 8px; }
+.dev-notes ul { margin:10px 0 0; padding-left:1.2rem; }
+.dev-notes code { font-size:12.5px; background:#f5f8f1; padding:1px 5px; border-radius:6px; color:#0f172a; }
+.dev-notes pre { background:#0f172a; color:#e2e8f0; border-radius:12px; padding:12px 14px; overflow:auto; font-size:12.5px; line-height:1.5; margin:12px 0 0; }
+.dev-notes pre code { background:none; color:inherit; padding:0; }
 </style>
 </head>
 <body>
@@ -894,6 +902,20 @@ h3 span { font-weight:500; color:#94a3b8; font-size:12px; margin-left:8px; }
   <path d="M7.2 6.4 8.2 21.2h7.6l1-14.8"/>
   <path d="M10.2 10.2v7.2"/>
   <path d="M13.8 10.2v7.2"/></svg></div></div></div></div></article>
+
+<aside class="dev-notes" id="developers">
+  <h2>For developers</h2>
+  <p>Same files on the public site and in the CRM. Not Lucide. Copy the files. Do not restyle, offset, or hotlink.</p>
+  <ul>
+    <li>Same-origin sprite only. Browsers will not paint <code>&lt;use&gt;</code> from another domain. Do not hotlink <code>idonatepro.github.io</code> from the app.</li>
+    <li>Draw 32–40px inside a 48–56px tile. Color with CSS via <code>currentColor</code>.</li>
+    <li>Bump <code>?v=</code> on <code>idp.svg</code> whenever the sprite changes. Slugs are the <code>&lt;symbol id&gt;</code>s (<code>home</code>, <code>save</code>, <code>data-services</code>…).</li>
+  </ul>
+  <pre><code>&lt;svg width="40" height="40" aria-hidden="true"&gt;
+  &lt;use href="/img/icons/idp.svg?v=47#contacts"&gt;&lt;/use&gt;
+&lt;/svg&gt;</code></pre>
+</aside>
+
   </div>
 </section>
 </main>
@@ -919,5 +941,5 @@ h3 span { font-weight:500; color:#94a3b8; font-size:12px; margin-left:8px; }
   </div>
   <div class="copyright">&copy; 2026 iDONATEpro. All rights reserved.</div>
 </footer>
-<script src="/js/site.js?v=46"></script>
+<script src="/js/site.js?v=47"></script>
 </body></html>
