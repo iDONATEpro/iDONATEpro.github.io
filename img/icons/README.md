@@ -5,6 +5,8 @@ No Lucide. No Font Awesome. No sticker / offset / drop-shadow.
 
 Same files for the public site and the CRM. Nav icons must read with no text label.
 
+
+Developer instructions: `DEVELOPERS.md`.
 ## Files
 - `svg/<slug>.svg` — individuals
 - `idp.svg` — sprite (`<symbol id="<slug>">`)
