@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <symbol id="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.25" y="3.5" width="8.25" height="17" rx="3.25"/>
+  <rect x="13.25" y="3.5" width="7.5" height="7.25" rx="3"/>
+  <rect x="13.25" y="13.25" width="7.5" height="7.25" rx="3"/>
+  <circle cx="17" cy="7.1" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="contacts" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="8.4" cy="7.1" r="2.7"/>
+  <path d="M3.6 19.6v-1.6c0-2.7 2.1-4.6 4.8-4.6s4.8 1.9 4.8 4.6v1.6"/>
+  <circle cx="16.1" cy="8.1" r="2.25"/>
+  <path d="M20.6 19.6v-1.3c0-2.2-1.8-3.9-4.1-3.9-.7 0-1.4.1-2 .4"/>
+  <circle cx="12.2" cy="10.2" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="find" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="10.1" cy="10.1" r="6.15"/>
+  <path d="M14.7 14.7 20.2 20.2"/>
+  <circle cx="10.1" cy="10.1" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="groups" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="5.6" cy="6.4" r="1.85"/>
+  <path d="M8.8 6.4h10.4"/>
+  <circle cx="5.6" cy="12" r="1.85"/>
+  <path d="M8.8 12h10.4"/>
+  <circle cx="5.6" cy="17.6" r="1.85"/>
+  <path d="M8.8 17.6h10.4"/>
+  <circle cx="20.4" cy="6.4" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="events" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.75" y="5.25" width="16.5" height="15" rx="3.25"/>
+  <path d="M3.75 10.1h16.5"/>
+  <path d="M8 3.5v3.4"/>
+  <path d="M16 3.5v3.4"/>
+  <path d="m8.4 15.3 2.15 2.15 4.7-4.7"/>
+  </symbol>
+  <symbol id="calls" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4.1" y="3.6" width="7.2" height="4.8" rx="2.35" transform="rotate(-32 7.7 6)"/>
+  <path d="M9.1 8.4c2.2 2.3 4.4 4.5 6.7 6.6"/>
+  <rect x="13.1" y="15.4" width="7.2" height="4.8" rx="2.35" transform="rotate(-32 16.7 17.8)"/>
+  <path d="M16.6 4.6c1.35.35 2.4 1.45 2.7 2.8"/>
+  <circle cx="20.4" cy="6.2" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="communications" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.4" y="5.6" width="17.2" height="12.8" rx="3.25"/>
+  <path d="m4.2 8.1 6.9 4.55c.55.36 1.25.36 1.8 0L19.8 8.1"/>
+  <circle cx="12" cy="14.35" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="financials" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="8.15"/>
+  <path d="M14.7 8.35c-1.15-.95-3.35-1.05-4.35.15-.85 1.05-.2 2.25 1.15 2.85 1.45.65 2.15 1.05 2.15 2.25 0 1.35-1.45 2.15-3.2 1.55"/>
+  <path d="M12 6.9v1.5M12 15.7v1.45"/>
+  </symbol>
+  <symbol id="campaigns" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6.2 4.4v16.3"/>
+  <path d="M6.2 4.6h0L19.1 10.1 6.2 15.5"/>
+  <circle cx="6.2" cy="3.15" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="data" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="12" cy="6.1" rx="7.6" ry="2.45"/>
+  <path d="M4.4 6.1v5.1c0 1.35 3.4 2.45 7.6 2.45s7.6-1.1 7.6-2.45V6.1"/>
+  <ellipse cx="12" cy="14.35" rx="7.6" ry="2.45"/>
+  <path d="M4.4 14.35v4.7c0 1.35 3.4 2.45 7.6 2.45s7.6-1.1 7.6-2.45v-4.7"/>
+  </symbol>
+  <symbol id="admin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.2 7.1h15.6"/>
+  <circle cx="9.1" cy="7.1" r="2.05"/>
+  <path d="M4.2 12h15.6"/>
+  <circle cx="15.4" cy="12" r="2.05"/>
+  <path d="M4.2 16.9h15.6"/>
+  <circle cx="11.2" cy="16.9" r="2.05"/>
+  </symbol>
+  <symbol id="reports" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6.4 20.2V13.1"/>
+  <path d="M12 20.2V5.6"/>
+  <path d="M17.6 20.2V9.4"/>
+  <path d="M4.4 20.2h15.2"/>
+  <circle cx="12" cy="4.35" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3.75" y="5.25" width="16.5" height="15" rx="3.25"/>
+  <path d="M3.75 10.1h16.5"/>
+  <path d="M8 3.5v3.4"/>
+  <path d="M16 3.5v3.4"/>
+  <rect x="8.6" y="13.1" width="3.1" height="3.1" rx="0.7" fill="currentColor" stroke="none"/>
+  <circle cx="15.7" cy="14.65" r="1.35" fill="currentColor" stroke="none"/>
+  </symbol>
+</svg>
