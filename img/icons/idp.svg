@@ -125,13 +125,14 @@
   <path d="M21.6 9.6v7.4"/>
   </symbol>
   <symbol id="deceased" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M12 2.4c-2.8 2.4-4.6 4.8-4.6 7.4 0 2.2 1.5 3.8 4.6 6.2 3.1-2.4 4.6-4 4.6-6.2 0-2.6-1.8-5-4.6-7.4Z"/>
-  <path d="M9.4 14.6 6.2 21.6"/>
-  <path d="M14.6 14.6 17.8 21.6"/>
-  </symbol>
-  <symbol id="archived" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <circle cx="12" cy="12" r="10.1"/>
   <path d="M5.2 5.2 18.8 18.8"/>
+  </symbol>
+  <symbol id="archived" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="3.4" y="1.5" width="17.2" height="21" rx="2.2"/>
+  <path d="M3.4 12h17.2"/>
+  <path d="M10.2 6.2h3.6"/>
+  <path d="M10.2 16.8h3.6"/>
   </symbol>
   <symbol id="reminders" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M6.2 17.2h11.6"/>
