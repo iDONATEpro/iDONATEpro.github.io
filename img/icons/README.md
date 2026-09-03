@@ -46,7 +46,8 @@ Same files for the public site and the CRM. Nav icons must read with no text lab
 | downloads | Downloads | arrow into a tray |
 | processes | Processes | looping arrows |
 
-| create | Create / New | plus |
+| new | New | plus |
+| save | Save | disk |
 | cancel | Cancel | X |
 | delete | Delete | trash |
 
