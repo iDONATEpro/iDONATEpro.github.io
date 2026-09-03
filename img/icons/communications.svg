@@ -1,16 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <circle cx="10.9" cy="10.9" r="8.9" fill="none"/>
-    <path d="M2.7 8.4h16.4" fill="none"/>
-    <path d="M2.7 13.4h16.4" fill="none"/>
-    <path d="M8.4 2.2c-2 3-2 14.4 0 17.4" fill="none"/>
-    <path d="M13.4 2.2c2 3 2 14.4 0 17.4" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <circle cx="10.9" cy="10.9" r="8.9" fill="none"/>
-    <path d="M2.7 8.4h16.4" fill="none"/>
-    <path d="M2.7 13.4h16.4" fill="none"/>
-    <path d="M8.4 2.2c-2 3-2 14.4 0 17.4" fill="none"/>
-    <path d="M13.4 2.2c2 3 2 14.4 0 17.4" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <circle cx="12" cy="12" r="10.1"/>
+  <path d="M2.6 9h18.8"/>
+  <path d="M2.6 15h18.8"/>
+  <path d="M9.2 2.2c-2.2 3.3-2.2 16.3 0 19.6"/>
+  <path d="M14.8 2.2c2.2 3.3 2.2 16.3 0 19.6"/>
 </svg>

@@ -1,14 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <circle cx="7.6" cy="5.9" r="3.5" fill="none"/>
-    <path d="M1.7 19.8v-1.15c0-3.2 2.6-5.6 5.9-5.6s5.9 2.4 5.9 5.6v1.15" fill="none"/>
-    <circle cx="15.5" cy="7" r="2.6" fill="none"/>
-    <path d="M20.9 19.8v-.95c0-2.4-1.95-4.25-4.45-4.25-.8 0-1.5.18-2.15.5" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <circle cx="7.6" cy="5.9" r="3.5" fill="none"/>
-    <path d="M1.7 19.8v-1.15c0-3.2 2.6-5.6 5.9-5.6s5.9 2.4 5.9 5.6v1.15" fill="none"/>
-    <circle cx="15.5" cy="7" r="2.6" fill="none"/>
-    <path d="M20.9 19.8v-.95c0-2.4-1.95-4.25-4.45-4.25-.8 0-1.5.18-2.15.5" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <circle cx="8.3" cy="6.2" r="3.8"/>
+  <path d="M1.8 21.4v-1.3c0-3.4 2.8-6 6.5-6s6.5 2.6 6.5 6v1.3"/>
+  <circle cx="16.7" cy="7.4" r="2.9"/>
+  <path d="M22.2 21.4v-1.1c0-2.6-2.1-4.6-4.8-4.6-.85 0-1.65.2-2.35.55"/>
 </svg>

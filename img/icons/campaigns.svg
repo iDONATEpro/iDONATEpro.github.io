@@ -1,20 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <path d="M10.9 1.2v1.8" fill="none"/>
-    <path d="M7.3 7.8c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4.1" fill="none"/>
-    <path d="M3.2 9.2h15.4" fill="none"/>
-    <path d="M3.2 9.2v7.4h15.4v-7.4" fill="none"/>
-    <path d="M7.4 9.2v7.4M10.9 9.2v7.4M14.4 9.2v7.4" fill="none"/>
-    <path d="M1.3 16.6h19" fill="none"/>
-    <path d="M2.6 19.7h16.4" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <path d="M10.9 1.2v1.8" fill="none"/>
-    <path d="M7.3 7.8c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4.1" fill="none"/>
-    <path d="M3.2 9.2h15.4" fill="none"/>
-    <path d="M3.2 9.2v7.4h15.4v-7.4" fill="none"/>
-    <path d="M7.4 9.2v7.4M10.9 9.2v7.4M14.4 9.2v7.4" fill="none"/>
-    <path d="M1.3 16.6h19" fill="none"/>
-    <path d="M2.6 19.7h16.4" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <path d="M12 1.4v2"/>
+  <path d="M8 8.4c0-2.55 1.75-4.6 4-4.6s4 2.05 4 4.6"/>
+  <path d="M3.2 10.2h17.6"/>
+  <path d="M3.2 10.2v8.4h17.6v-8.4"/>
+  <path d="M7.6 10.2v8.4M12 10.2v8.4M16.4 10.2v8.4"/>
+  <path d="M1.4 18.6h21.2"/>
+  <path d="M2.8 22h18.4"/>
 </svg>

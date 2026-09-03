@@ -235,9 +235,9 @@ section.hero { padding: 0; }
 .card-accent p { color: rgba(255,255,255,0.85); }
 .icon-box {
   width: 3.5rem; height: 3.5rem; border-radius: 1rem; display: flex; align-items: center; justify-content: center;
-  background: var(--brand-strong); color: #fff; margin-bottom: 1.5rem;
+  background: var(--brand-soft); color: var(--brand); margin-bottom: 1.5rem;
 }
-.icon-box svg { width: 2.75rem; height: 2.75rem; display: block; }
+.icon-box svg { width: 2.5rem; height: 2.5rem; display: block; }
 .card-accent .icon-box { background: rgba(255,255,255,0.15); color: #fff; }
 
 .bg-white { background: #fff; }
@@ -261,8 +261,8 @@ section.hero { padding: 0; }
   border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05);
   border-radius: 24px; padding: 1.5rem;
 }
-.why-card .icon-box { width: 3.5rem; height: 3.5rem; background: var(--navy); color: var(--brand-bright); margin-bottom: 1rem; }
-.why-card .icon-box svg { width: 2.75rem; height: 2.75rem; }
+.why-card .icon-box { width: 3.5rem; height: 3.5rem; background: var(--brand-bright); color: #fff; margin-bottom: 1rem; }
+.why-card .icon-box svg { width: 2.5rem; height: 2.5rem; }
 .why-card p { color: #cbd5e1; margin-top: 0.5rem; }
 .quote-grid { display: grid; gap: 1.25rem; }
 .quote { background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: 1.75rem; color: var(--ink); }
@@ -391,7 +391,7 @@ section.hero { padding: 0; }
 .calendly-wrap iframe { width: 100%; height: 1200px; border: 0; }
 
 .ref-hero { background: var(--navy); color: #fff; padding: 5rem 0; text-align: center; }
-.gift svg { width: 2.75rem; height: 2.75rem; display: block; }
+.gift svg { width: 2.5rem; height: 2.5rem; display: block; }
 .gift {
   width: 4rem; height: 4rem; margin: 0 auto 1.5rem; border-radius: 1rem;
   background: var(--brand-bright); color: #fff; display: flex; align-items: center; justify-content: center;

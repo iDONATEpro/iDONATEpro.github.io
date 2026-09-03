@@ -1,16 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <rect x="1.2" y="3.3" width="18.8" height="16.8" rx="2.3" fill="none"/>
-    <path d="M1.2 8.4h18.8" fill="none"/>
-    <path d="M6.4 1.3v3.3" fill="none"/>
-    <path d="M14.8 1.3v3.3" fill="none"/>
-    <rect x="7.4" y="11.2" width="6.2" height="4.6" rx="1" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <rect x="1.2" y="3.3" width="18.8" height="16.8" rx="2.3" fill="none"/>
-    <path d="M1.2 8.4h18.8" fill="none"/>
-    <path d="M6.4 1.3v3.3" fill="none"/>
-    <path d="M14.8 1.3v3.3" fill="none"/>
-    <rect x="7.4" y="11.2" width="6.2" height="4.6" rx="1" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <rect x="1.5" y="3.5" width="21" height="19" rx="2.5"/>
+  <path d="M1.5 9.1h21"/>
+  <path d="M7 1.5v3.7"/>
+  <path d="M17 1.5v3.7"/>
+  <rect x="8.6" y="12.4" width="6.8" height="5.2" rx="1.1"/>
 </svg>

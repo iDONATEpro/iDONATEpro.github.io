@@ -1,10 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <circle cx="9.6" cy="9.6" r="7.5" fill="none"/>
-    <path d="m15.2 15.2 5 5" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <circle cx="9.6" cy="9.6" r="7.5" fill="none"/>
-    <path d="m15.2 15.2 5 5" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <circle cx="10.4" cy="10.4" r="8.2"/>
+  <path d="m16.5 16.5 5.6 5.6"/>
 </svg>

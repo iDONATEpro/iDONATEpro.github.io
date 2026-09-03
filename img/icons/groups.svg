@@ -1,18 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <circle cx="4" cy="5.5" r="2.2" fill="none"/>
-    <path d="M7.6 5.5h11.2" fill="none"/>
-    <circle cx="4" cy="11.2" r="2.2" fill="none"/>
-    <path d="M7.6 11.2h11.2" fill="none"/>
-    <circle cx="4" cy="16.9" r="2.2" fill="none"/>
-    <path d="M7.6 16.9h11.2" fill="none"/>
-  </g>
-  <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <circle cx="4" cy="5.5" r="2.2" fill="none"/>
-    <path d="M7.6 5.5h11.2" fill="none"/>
-    <circle cx="4" cy="11.2" r="2.2" fill="none"/>
-    <path d="M7.6 11.2h11.2" fill="none"/>
-    <circle cx="4" cy="16.9" r="2.2" fill="none"/>
-    <path d="M7.6 16.9h11.2" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <circle cx="4.3" cy="5.8" r="2.4"/>
+  <path d="M8.2 5.8h12.4"/>
+  <circle cx="4.3" cy="12" r="2.4"/>
+  <path d="M8.2 12h12.4"/>
+  <circle cx="4.3" cy="18.2" r="2.4"/>
+  <path d="M8.2 18.2h12.4"/>
 </svg>
