@@ -47,6 +47,13 @@ p, ul { margin: 0; }
   gap: 1rem;
 }
 .logo img { height: 2.5rem; width: auto; }
+.header-brand { display: flex; flex-direction: column; align-items: flex-start; gap: 0.45rem; }
+.header-contact { display: flex; flex-direction: row; flex-wrap: wrap; gap: 0.45rem; }
+.btn-contact {
+  background: #e2e8f0; color: #334155; border: 1px solid #cbd5e1;
+  font-size: 0.75rem; padding: 0.35rem 0.85rem; font-weight: 600;
+}
+.btn-contact:hover { background: #cbd5e1; color: var(--ink); }
 .header-actions { display: flex; align-items: center; gap: 0.75rem; }
 .desktop-nav { display: none; align-items: center; gap: 1.25rem; margin-right: 0.5rem; }
 .desktop-nav a { font-size: 0.875rem; font-weight: 600; color: #334155; }
