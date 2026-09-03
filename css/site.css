@@ -408,7 +408,10 @@ section.hero { padding: 0; }
 .contact-form .thanks { display: none; margin: 0 0 1rem; font-weight: 700; color: var(--brand); }
 .contact-form.sent .thanks { display: block; }
 .contact-form.sent .fields { display: none; }
-.demo-kicker { margin: 0 0 1rem; }
+.demo-kicker { margin: 2.5rem 0 0.75rem; }
+.demo-line { margin: 0 0 1.25rem; max-width: 40rem; }
+#contact > .wrap > .kicker:first-child { margin-bottom: 1rem; }
+.contact-form { margin-top: 0; }
 @media (min-width: 640px) {
   .contact-form .row.two { grid-template-columns: 1fr 1fr; }
 }
