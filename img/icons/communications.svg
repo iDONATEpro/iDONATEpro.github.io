@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <rect x="1.2" y="3.4" width="21.6" height="17.2" rx="2.6"/>
-  <path d="m2.4 6.8 8.2 5.5c.8.55 1.9.55 2.7 0l8.3-5.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
+    <circle cx="10.9" cy="10.9" r="8.9" fill="none"/>
+    <path d="M2.7 8.4h16.4" fill="none"/>
+    <path d="M2.7 13.4h16.4" fill="none"/>
+    <path d="M8.4 2.2c-2 3-2 14.4 0 17.4" fill="none"/>
+    <path d="M13.4 2.2c2 3 2 14.4 0 17.4" fill="none"/>
+  </g>
+  <g class="idp-hard" stroke="currentColor" stroke-width="2">
+    <circle cx="10.9" cy="10.9" r="8.9" fill="none"/>
+    <path d="M2.7 8.4h16.4" fill="none"/>
+    <path d="M2.7 13.4h16.4" fill="none"/>
+    <path d="M8.4 2.2c-2 3-2 14.4 0 17.4" fill="none"/>
+    <path d="M13.4 2.2c2 3 2 14.4 0 17.4" fill="none"/>
+  </g>
 </svg>

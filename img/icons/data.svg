@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  <rect x="4.2" y="1.2" width="16.4" height="8" rx="2.1"/>
-  <rect x="1.8" y="8" width="16.4" height="8" rx="2.1"/>
-  <rect x="4.2" y="14.8" width="16.4" height="8" rx="2.1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
+    <rect x="4.1" y="1.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+    <rect x="2" y="7.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+    <rect x="4.1" y="13.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+  </g>
+  <g class="idp-hard" stroke="currentColor" stroke-width="2">
+    <rect x="4.1" y="1.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+    <rect x="2" y="7.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+    <rect x="4.1" y="13.2" width="14.2" height="6.9" rx="1.8" fill="none"/>
+  </g>
 </svg>

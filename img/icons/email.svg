@@ -1,12 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
   <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
-    <path d="M4.2 19.6V8.8" fill="none"/>
-    <path d="M10.9 19.6V2.4" fill="none"/>
-    <path d="M17.6 19.6V6.1" fill="none"/>
+    <rect x="1.2" y="3.5" width="18.8" height="14.8" rx="2.3" fill="none"/>
+    <path d="m2.3 6.4 7.1 4.7c.7.46 1.6.46 2.3 0l7.3-4.7" fill="none"/>
   </g>
   <g class="idp-hard" stroke="currentColor" stroke-width="2">
-    <path d="M4.2 19.6V8.8" fill="none"/>
-    <path d="M10.9 19.6V2.4" fill="none"/>
-    <path d="M17.6 19.6V6.1" fill="none"/>
+    <rect x="1.2" y="3.5" width="18.8" height="14.8" rx="2.3" fill="none"/>
+    <path d="m2.3 6.4 7.1 4.7c.7.46 1.6.46 2.3 0l7.3-4.7" fill="none"/>
   </g>
 </svg>

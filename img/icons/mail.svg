@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+  <g class="idp-sticker" transform="translate(2.1 2.1)" stroke="#fff" stroke-width="2.15">
+    <rect x="1.2" y="3.9" width="18.8" height="13.6" rx="2.1" fill="none"/>
+    <rect x="13.1" y="6" width="4.8" height="3.6" rx="0.6" fill="none"/>
+    <path d="M3.9 12.8h7.2" fill="none"/>
+    <path d="M3.9 15.6h4.8" fill="none"/>
+  </g>
+  <g class="idp-hard" stroke="currentColor" stroke-width="2">
+    <rect x="1.2" y="3.9" width="18.8" height="13.6" rx="2.1" fill="none"/>
+    <rect x="13.1" y="6" width="4.8" height="3.6" rx="0.6" fill="none"/>
+    <path d="M3.9 12.8h7.2" fill="none"/>
+    <path d="M3.9 15.6h4.8" fill="none"/>
+  </g>
+</svg>
