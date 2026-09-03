@@ -269,4 +269,32 @@
     }
     refresh();
   }
+
+  const contactForm = document.querySelector("[data-contact-form]");
+  if (contactForm) {
+    const opened = Date.now();
+    if (/[?&]sent=1/.test(location.search) || location.hash.indexOf("sent=1") !== -1) {
+      contactForm.classList.add("sent");
+    }
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const trap = contactForm.querySelector("[name=company_website]");
+      const honey = contactForm.querySelector("[name=_gotcha]");
+      if ((trap && trap.value) || (honey && honey.value)) return;
+      if (Date.now() - opened < 2500) return;
+      const body = new FormData(contactForm);
+      fetch(contactForm.action, {
+        method: "POST",
+        body,
+        headers: { Accept: "application/json" }
+      }).then((res) => {
+        if (!res.ok) throw new Error("send failed");
+        contactForm.classList.add("sent");
+        contactForm.reset();
+      }).catch(() => {
+        contactForm.submit();
+      });
+    });
+  }
+
 })();
