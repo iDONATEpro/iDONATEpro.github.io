@@ -3,7 +3,7 @@
 Unique product icons. Stroke 2. Large silhouettes filling the 24 box.
 No Lucide. No Font Awesome. No sticker / offset / drop-shadow.
 
-Same files for the public site and the CRM.
+Same files for the public site and the CRM. Nav icons must read with no text label.
 
 ## Files
 - `svg/<slug>.svg` — individuals
@@ -16,7 +16,7 @@ Same files for the public site and the CRM.
 ## Map
 | slug | label | metaphor |
 |---|---|---|
-| home | Home | 2×2 dashboard tiles |
+| home | Home | simple house |
 | contacts | Contacts / Donors | two people |
 | find | Find | search |
 | groups | Groups / Lists | people rows (not hamburger) |
@@ -34,3 +34,10 @@ Same files for the public site and the CRM.
 | admin | Admin | two sliders |
 | reports | Reports | three bars |
 | calendar | Calendar | calendar with marked day |
+
+| associates | Associates | two people, joined |
+| notes | Notes | lined card |
+| bio | Bio | photo + lines on a card |
+| alumni | Alumni | mortarboard |
+| deceased | Deceased | memorial ribbon |
+| archived | Archived | archive box |
