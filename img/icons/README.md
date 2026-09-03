@@ -30,7 +30,7 @@ Same files for the public site and the CRM. Nav icons must read with no text lab
 | donations | Donations | banknote + seal |
 | campaigns | Campaigns | capitol (dome + columns + steps) |
 | pledges | Pledges | commitment card + check |
-| data | Data | stacked record cards |
+| data | Data | spreadsheet grid |
 | admin | Admin | two sliders |
 | reports | Reports | three bars |
 | calendar | Calendar | calendar with marked day |
@@ -40,4 +40,12 @@ Same files for the public site and the CRM. Nav icons must read with no text lab
 | bio | Bio | photo + lines on a card |
 | alumni | Alumni | mortarboard |
 | deceased | Deceased | memorial ribbon |
-| archived | Archived | archive box |
+| archived | Archived | prohibition (don’t) |
+
+| reminders | Reminders | bell |
+| downloads | Downloads | arrow into a tray |
+| processes | Processes | looping arrows |
+
+| create | Create / New | plus |
+| cancel | Cancel | X |
+| delete | Delete | trash |
