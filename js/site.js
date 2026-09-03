@@ -297,4 +297,14 @@
     });
   }
 
+
+  window.addEventListener("message", (e) => {
+    if (typeof e.origin !== "string" || e.origin.indexOf("calendly.com") === -1) return;
+    const data = e.data || {};
+    const height = data.payload && data.payload.height;
+    if (!height || !data.event || String(data.event).indexOf("calendly") !== 0) return;
+    const iframe = document.querySelector(".calendly-wrap iframe");
+    if (iframe) iframe.style.height = height + "px";
+  });
+
 })();
