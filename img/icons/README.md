@@ -49,3 +49,12 @@ Same files for the public site and the CRM. Nav icons must read with no text lab
 | create | Create / New | plus |
 | cancel | Cancel | X |
 | delete | Delete | trash |
+
+| upload | Upload | arrow up off a tray |
+| download | Download | arrow into a tray |
+| import | Import | spreadsheet in |
+| export | Export | spreadsheet out |
+| pdf | PDF | file with a fold |
+| integrations | Integrations | two systems plugged together |
+| dedupe | De-Dupe | two overlapping sheets |
+| data-services | Data Services | worksheet with a seal |
