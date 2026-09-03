@@ -120,14 +120,26 @@ p, ul { margin: 0; }
 .hero h1 { font-size: clamp(2.15rem, 4.2vw, 3.6rem); max-width: 18ch; }
 .hero-proof { margin-top: 1.6rem; display: grid; gap: 0.85rem; max-width: 36rem; margin-inline: auto; text-align: center; justify-items: center; }
 .eyebrow {
-  display: grid; grid-template-rows: 1.45em 1.2em; row-gap: 0.15rem; align-content: center; justify-items: center; text-align: center; width: 100%;
+  display: grid; align-content: center; justify-items: center; text-align: center; width: 100%;
   box-sizing: border-box;
   height: 4.6rem; min-height: 4.6rem; max-height: 4.6rem; overflow: hidden;
   background: #fff; color: var(--ink);
   border: 1px solid var(--line);
   border-radius: 1.5rem; padding: 0.7rem 1.2rem; font-size: 1.02rem; font-weight: 500;
   line-height: 1.4; box-shadow: 0 12px 28px rgba(0,0,0,0.22);
-  transition: opacity 0.25s ease, border-color 0.15s ease, box-shadow 0.15s ease; cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease; cursor: pointer;
+}
+.eyebrow .quote-slide {
+  grid-area: 1 / 1;
+  display: grid; grid-template-rows: 1.45em 1.2em; row-gap: 0.15rem;
+  align-content: center; justify-items: center; text-align: center;
+  width: 100%; min-width: 0;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.eyebrow .quote-slide.is-active { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .eyebrow .quote-slide { transition: none; }
 }
 .eyebrow .quote-text {
   min-width: 0; max-width: 100%;

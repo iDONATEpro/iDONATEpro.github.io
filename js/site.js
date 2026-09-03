@@ -75,19 +75,23 @@
       { text: "iDONATEpro is so much better for fundraising!", name: "Molly" },
       { text: "The Cleanest, Easiest to use CRM I have ever used.", name: "Zac" }
     ];
-    function renderQuote(q) {
-      rotateEl.innerHTML = "<span class=\"quote-text\">\u201c" + q.text + "\u201d</span><span class=\"quote-name\">\u2014 " + q.name + "</span>";
-    }
-    renderQuote(quotes[0]);
+    rotateEl.innerHTML = "";
+    const slides = quotes.map((q, idx) => {
+      const slide = document.createElement("span");
+      slide.className = "quote-slide" + (idx === 0 ? " is-active" : "");
+      slide.innerHTML = "<span class=\"quote-text\">\u201c" + q.text + "\u201d</span><span class=\"quote-name\">\u2014 " + q.name + "</span>";
+      rotateEl.appendChild(slide);
+      return slide;
+    });
     let i = 0;
-    setInterval(() => {
-      i = (i + 1) % quotes.length;
-      rotateEl.style.opacity = "0";
-      setTimeout(() => {
-        renderQuote(quotes[i]);
-        rotateEl.style.opacity = "1";
-      }, 220);
-    }, 4500);
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!reduceMotion) {
+      setInterval(() => {
+        slides[i].classList.remove("is-active");
+        i = (i + 1) % slides.length;
+        slides[i].classList.add("is-active");
+      }, 4500);
+    }
   }
 
   const prices = {
