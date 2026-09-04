@@ -219,7 +219,7 @@ p, ul { margin: 0; }
   object-fit: cover; flex-shrink: 0;
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
-.icp-copy h3 { font-size: 1.22rem; }
+.icp-copy h3 { font-size: 1.22rem; color: var(--ink); }
 .icp-copy p { margin-top: 0.45rem; color: #475569; font-size: 0.95rem; line-height: 1.5; }
 .icp-card.accent { background: var(--brand); color: #fff; }
 .icp-card.accent p { color: rgba(255,255,255,0.92); }
@@ -529,8 +529,11 @@ section.hero { padding: 0; }
 a.icp-card {
   transition: transform 0.18s ease, box-shadow 0.18s ease;
   text-decoration: none;
-  color: inherit;
+  color: var(--ink);
 }
+a.icp-card .icp-copy h3 { color: var(--ink); }
+a.icp-card.accent,
+a.icp-card.accent .icp-copy h3 { color: #fff; }
 a.icp-card:hover,
 a.icp-card:focus-visible {
   transform: translateY(-3px);
