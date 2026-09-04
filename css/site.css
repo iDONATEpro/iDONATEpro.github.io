@@ -524,3 +524,112 @@ section.hero { padding: 0; }
 @media (min-width: 1280px) {
   .caps-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Who It's For — audience page + ICP door links */
+a.icp-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+  text-decoration: none;
+  color: inherit;
+}
+a.icp-card:hover,
+a.icp-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 22px 48px rgba(0,0,0,0.24);
+}
+a.icp-card:focus-visible {
+  outline: 2px solid var(--brand-bright);
+  outline-offset: 3px;
+}
+a.icp-card:hover .icp-copy h3,
+a.icp-card:focus-visible .icp-copy h3 {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+a.icp-card.accent:hover,
+a.icp-card.accent:focus-visible {
+  box-shadow: 0 22px 48px rgba(0,0,0,0.28);
+}
+
+.audience-hero { padding-bottom: 2.5rem; }
+.audience-lede {
+  margin-top: 1rem;
+  max-width: 40rem;
+  font-size: 1.125rem;
+  color: #475569;
+  line-height: 1.7;
+}
+.audience-block {
+  padding: 3.5rem 0;
+  scroll-margin-top: 6.5rem;
+}
+.audience-grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+.audience-photo {
+  margin: 0;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+  background: #fff;
+}
+.audience-photo img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.audience-copy h2 {
+  margin-top: 0.55rem;
+  font-size: clamp(1.75rem, 3vw, 2.15rem);
+}
+.audience-headline {
+  margin-top: 0.85rem;
+  font-size: clamp(1.2rem, 2.2vw, 1.45rem);
+  color: var(--brand-strong);
+  font-weight: 700;
+}
+.audience-copy p {
+  margin-top: 0.9rem;
+  color: #334155;
+  line-height: 1.75;
+}
+.audience-outcomes {
+  margin: 1.25rem 0 0;
+  padding-left: 1.2rem;
+  color: #334155;
+}
+.audience-outcomes li {
+  margin: 0.45rem 0;
+  line-height: 1.55;
+}
+.audience-also {
+  margin-top: 1.35rem !important;
+  font-size: 0.95rem;
+  color: #64748b !important;
+}
+.audience-also a {
+  color: var(--brand-strong);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.audience-also a:hover { color: var(--brand); }
+.audience-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+@media (min-width: 768px) {
+  .audience-grid {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: 2.75rem;
+  }
+  .audience-grid-reverse .audience-photo { order: 2; }
+  .audience-grid-reverse .audience-copy { order: 1; }
+  .audience-photo img { aspect-ratio: 4 / 5; }
+}
+@media (min-width: 1024px) {
+  .audience-block { scroll-margin-top: 5.5rem; }
+}
