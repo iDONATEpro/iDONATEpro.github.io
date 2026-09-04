@@ -94,6 +94,22 @@
     }
   }
 
+  const offerEl = document.querySelector("[data-offer-rotate]");
+  if (offerEl) {
+    const slides = Array.from(offerEl.querySelectorAll(".offer-slide"));
+    if (slides.length > 1) {
+      let i = 0;
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduceMotion) {
+        setInterval(() => {
+          slides[i].classList.remove("is-active");
+          i = (i + 1) % slides.length;
+          slides[i].classList.add("is-active");
+        }, 5500);
+      }
+    }
+  }
+
   const prices = {
     political: { monthly: [150, 275, 350, 575], annual: [1650, 3025, 3850, 6325] },
     nonprofit: { monthly: [60, 120, 250, 400], annual: [660, 1320, 2750, 4400] }
