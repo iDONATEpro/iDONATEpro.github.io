@@ -708,6 +708,14 @@ a.cap:focus-visible h3 {
   color: var(--brand-strong, var(--brand));
   font-weight: 700;
 }
+.capability-subhead {
+  margin: 0.35rem 0 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--brand-strong, var(--brand));
+  letter-spacing: 0.01em;
+}
+
 .capability-copy > p {
   margin-top: 0.9rem;
   color: #334155;
