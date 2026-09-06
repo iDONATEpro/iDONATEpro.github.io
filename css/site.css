@@ -810,14 +810,22 @@ a.cap:focus-visible h3 {
   color: #94a3b8;
 }
 
+/* Stacked (narrow): content first, screenshots / video below */
+.capability-grid .capability-copy { order: 1; }
+.capability-grid .cap-media { order: 2; }
+
 @media (min-width: 768px) {
   .capability-grid {
     grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
     gap: 2.75rem;
     align-items: center;
   }
-  .capability-grid-reverse .cap-media { order: 2; }
+  /* Side-by-side default: media left, copy right */
+  .capability-grid .cap-media { order: 1; }
+  .capability-grid .capability-copy { order: 2; }
+  /* Alternating blocks: copy left, media right */
   .capability-grid-reverse .capability-copy { order: 1; }
+  .capability-grid-reverse .cap-media { order: 2; }
 }
 @media (min-width: 1024px) {
   .capability-block { scroll-margin-top: 5.5rem; }
