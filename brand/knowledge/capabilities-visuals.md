@@ -1,15 +1,23 @@
 # Capabilities visuals — shared knowledge
 
 Living team brief. Skill: `capabilities-marketing-visuals`.
+Screenshot sizes/PNG: `knowledge/capabilities-screenshots.md`.
 
-## Overlay bar (locked 2026-09-06)
-- **Intercom**: numbered markers + short value cards **on** the product UI
-- **Figma**: tight zooms pinned to real controls
+## Overlay bar
+- **Intercom-style intent**: numbered markers + short value cards **on** the product UI
+- **Figma**: tight zooms pinned to real controls (when used)
 - **Webflow**: 1–3 callouts on the same canvas
-- **Stripe**: crop-and-whisper restraint (when quieter)
+- **Stripe**: crop-and-whisper restraint (keep the product readable — do **not** grey/mud the center)
 - **Not the bar**: Linear / Attio (beautiful, mostly refuse callouts)
 - Max **3** overlays per shot
 - Sell identity/transformation; Title Case Donors, Call Time, Campaigns
+
+## Locked process (2026-09-06)
+- Forrest supplies the **real bar**: his screenshots + tight brief (exact 3 spots, exact card copy, don’t grey the UI)
+- Graphics Designer places markers + cards on-shot, personally opens every crop, shows Forrest **only** if site-ready
+- No Midjourney inventing overlays; no unsupervised Pillow pass
+- Rework on failed overlay passes is unbilled
+- Public Website holds Contacts shipping until GD-owned pass + Forrest go
 
 ## QC gate (mandatory)
 1. Visually open the finished image (not just build logs)
@@ -18,14 +26,18 @@ Living team brief. Skill: `capabilities-marketing-visuals`.
 4. Graphics Designer craft-checks before Forrest sees it
 5. Only then present to Forrest
 
-## Rejected pattern
-- Diagram-style inset cards stacked **beside** the product shot (Forrest rejected)
+## Rejected
+- Diagram-style inset cards stacked **beside** the product shot
+- Greying out / muddying the product center so callouts float on dead UI
+- Marketing landing pages passed off as product-UI overlay samples
+- OnePageCRM / Salesforce “callout” refs Forrest rejected (2026-09-06) — not the bar
+- Rubber-stamping composites without opening crops
 
 ## Paths
 - Office demo shots: `/workspace/office-demo/shots/`
 - Composites: `/workspace/office-demo/shots/composites/`
-- Sample in progress: `contacts-intercom-sample.png` (zooms being rebuilt — do not ship until QC + GD OK)
 - Brand pack: `/workspace/idp-brand/`
+- Brand board (noindex): https://idonatepro.github.io/brand/
 - Review site: https://idonatepro.github.io/
 
 ## Production photos
@@ -34,10 +46,3 @@ Living team brief. Skill: `capabilities-marketing-visuals`.
 
 ## Logo
 - TM colors locked: green `#7BC143`, gray `#666666` — never recolor
-
-## Reference captures (2026-09-06)
-Saved under `/workspace/office-demo/refs/`:
-- `overlay-figma.png` — strongest: lettered hotspots + collaborator callouts on UI
-- `overlay-webflow.png` — circular “+” hotspots on Designer cards
-- `overlay-alt-stripe.png` — status callout on checkout UI
-Intercom public pages did not yield a clear overlay capture that day; bar remains Intercom-style from product knowledge + our Contacts sample.
