@@ -852,8 +852,15 @@ a.cap:focus-visible h3 {
   height: 2.5rem;
   flex-shrink: 0;
   border-radius: 0.55rem;
-  background: var(--brand-soft, #eef5e5);
+  background: #fff;
+  border: 1px solid #d1d5db;
   color: var(--brand, #7da447);
+  box-sizing: border-box;
+}
+.cap-section-soon {
+  font-weight: 500;
+  color: #64748b;
+  font-size: 0.92em;
 }
 .cap-section-icon svg {
   display: block;
