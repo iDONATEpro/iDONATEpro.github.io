@@ -38,18 +38,30 @@ Copy `colors/tokens.css`. Do not invent hex values.
 | `--slate-500` | `#64748b` | Captions |
 | `--slate-300` | `#cbd5e1` | Lede on dark |
 
-## Logo
+## Logo colors (trade dress — never change)
 
-| File | Background |
+The trademark wordmark colors are fixed in the logo file. **Never recolor them.**
+
+| Role | Hex | Notes |
+|---|---|---|
+| Green (i-dot + **pro**) | `#7BC143` | Trademark green — not `--brand` `#7da447` |
+| Gray (**DONATE**) | `#666666` | Trademark gray — not ink / slate |
+| White | `#FFFFFF` | Unused BG layer in the SVG |
+
+Source file: `logos/wordmark.svg` (= `idonatepro-logo.svg` on the public site).
+
+- Do **not** remap logo fills to CSS tokens (`#7da447`, `#7ac142`, `#0f172a`, etc.).
+- On dark backgrounds, put the **unchanged** wordmark on a white/light pill — do not invert or recolor the mark.
+- One wordmark. No “on-light / on-dark / green” color variants.
+
+## Logo files
+
+| File | Use |
 |---|---|
-| `logos/wordmark-on-light.svg` | White / mint |
-| `logos/wordmark-on-dark.svg` | Black |
-| `logos/wordmark-green.svg` | When a single-color green mark is needed |
-| `logos/mark.png` | Compact mark / favicon source |
-
-Clear space: at least the height of the “i” dot around the wordmark. Never stretch. Never recolor outside the variants above.
-
-Email: prefer PNG (`wordmark-on-light.png` / `wordmark-on-dark.png`). Many clients block SVG.
+| `logos/wordmark.svg` | Exact TM wordmark |
+| `logos/wordmark.png` | Same, raster for email |
+| `logos/idonatepro-logo.svg` | Alias of TM file |
+| `logos/mark.png` | Compact mark if present |
 
 ## Type
 

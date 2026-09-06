@@ -4,6 +4,8 @@ Trade marked and trade dressed. One pack for public site, CRM, email, and compos
 
 **Name / mark casing (trade dress):** always `iDONATEpro` — lowercase `i`, uppercase `DONATE`, lowercase `pro`. Never IDONATEPRO, iDonatePro, iDonate Pro, or iDONATE Pro.
 
+**Logo colors are trademark-locked:** green `#7BC143`, gray `#666666`. Never remap to CSS brand tokens. On dark UI, use a white pill behind the unchanged mark.
+
 
 Review board: ship as `/brand/` (same pattern as `/icons/`).
 
