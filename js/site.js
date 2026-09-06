@@ -323,4 +323,32 @@
     if (iframe) iframe.style.height = height + "px";
   });
 
+
+  // US site notice (cookies / Analytics) — show once until Got it
+  (function siteNotice() {
+    var KEY = "idp_site_notice_ok";
+    try {
+      if (localStorage.getItem(KEY) === "1") return;
+    } catch (e) {}
+    var bar = document.createElement("div");
+    bar.className = "site-notice";
+    bar.setAttribute("role", "dialog");
+    bar.setAttribute("aria-label", "Site notice");
+    bar.innerHTML =
+      '<div class="site-notice-inner">' +
+      '<p class="site-notice-copy">We use cookies and similar tools (including analytics) to run and improve this site. See our <a href="/privacy-policy/">Privacy Policy</a>.</p>' +
+      '<div class="site-notice-actions"><button type="button" class="site-notice-gotit" data-site-notice-ok>Got it</button></div>' +
+      "</div>";
+    document.body.appendChild(bar);
+    var btn = bar.querySelector("[data-site-notice-ok]");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      try {
+        localStorage.setItem(KEY, "1");
+      } catch (e) {}
+      bar.hidden = true;
+      bar.remove();
+    });
+  })();
+
 })();
