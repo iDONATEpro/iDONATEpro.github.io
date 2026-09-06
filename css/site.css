@@ -852,10 +852,10 @@ a.cap:focus-visible h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.75rem;
+  height: 2.75rem;
   flex-shrink: 0;
-  border-radius: 0.55rem;
+  border-radius: 1rem;
   background: #fff;
   border: 1.5px solid var(--brand, #7da447);
   color: var(--brand, #7da447);
