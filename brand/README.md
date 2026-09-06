@@ -19,6 +19,7 @@ Review board: ship as `/brand/` (same pattern as `/icons/`).
 | `icons/` | Pointer to locked product icon kit (`idp.svg`) |
 | `images/` | Owned photography, capabilities, product shots, composites — see `images/MANIFEST.md` |
 | `type/` | Type notes |
+| `knowledge/` | Shared guidelines (Capabilities visuals, screenshot specs) — all teammates |
 | `index.html` | Brand board (like the icons page) |
 | `DEVELOPERS.md` | How to ship without breaking trade dress |
 
