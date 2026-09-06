@@ -385,7 +385,7 @@ section.hero { padding: 0; }
 .cta-band p { color: #cbd5e1; margin-top: 0.75rem; }
 .cta-row { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
 
-.page-hero { padding: 6rem 0 3rem; }
+.page-hero { padding: 2.5rem 0 2.5rem; }
 .prose { max-width: 52rem; }
 .prose h1 { margin-bottom: 1.25rem; }
 .prose h2 { margin: 2.2rem 0 0.8rem; font-size: 1.5rem; }
@@ -553,7 +553,7 @@ a.icp-card.accent:focus-visible {
   box-shadow: 0 22px 48px rgba(0,0,0,0.28);
 }
 
-.audience-hero { padding-bottom: 2.5rem; }
+.audience-hero { padding-bottom: 2rem; }
 .audience-lede {
   margin-top: 1rem;
   max-width: 40rem;
