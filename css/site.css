@@ -296,7 +296,13 @@ section.hero { padding: 0; }
 .cap:hover { transform: translateY(-4px); background: #fff; border-color: rgba(125,164,71,0.3); box-shadow: 0 20px 25px -5px rgba(125,164,71,0.1); }
 .cap h3 { font-size: 1.25rem; }
 .cap p { margin-top: 0.75rem; color: var(--muted); }
-.cap .icon-box { margin-bottom: 1.25rem; }
+.cap .icon-box {
+  margin-bottom: 1.25rem;
+  background: #fff;
+  border: 1.5px solid var(--brand, #7da447);
+  color: var(--brand, #7da447);
+  box-sizing: border-box;
+}
 
 .why-grid { display: grid; gap: 3rem; }
 .why-cards { display: grid; gap: 1.25rem; }
