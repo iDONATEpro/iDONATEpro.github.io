@@ -124,12 +124,70 @@
   .img-meta { padding: 8px 10px 10px; font-size: 11px; line-height: 1.35; }
   .img-meta strong { display: block; font-size: 12px; word-break: break-all; }
   .img-meta span { color: #64748b; }
+
+  .tm-lock {
+    background: #020617;
+    color: #fff;
+    border-radius: 24px;
+    padding: 22px 24px 20px;
+    margin: 0 0 18px;
+    border: 2px solid #7BC143;
+  }
+  .tm-lock .tm-kicker {
+    font-size: 12px; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase;
+    color: #7BC143; margin: 0 0 8px;
+  }
+  .tm-lock h2 {
+    font-family: var(--font-display);
+    font-size: 22px; letter-spacing: -0.02em; margin: 0 0 10px; color: #fff;
+  }
+  .tm-lock p { margin: 0 0 14px; color: #cbd5e1; line-height: 1.55; max-width: 70ch; }
+  .tm-swatches { display: flex; flex-wrap: wrap; gap: 12px; }
+  .tm-swatch {
+    display: flex; align-items: center; gap: 12px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 14px; padding: 10px 14px 10px 10px; min-width: 220px;
+  }
+  .tm-chip {
+    width: 40px; height: 40px; border-radius: 10px; flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .tm-swatch strong { display: block; font-size: 14px; color: #fff; }
+  .tm-swatch code { font-size: 13px; color: #7BC143; font-weight: 700; }
+  .tm-swatch span { font-size: 12px; color: #94a3b8; }
+
 </style>
 </head>
 <body>
   <div class="chip">Trade dress · trademarked</div>
   <h1>Brand pack · iDONATEpro</h1>
   <p class="sub">Same law as the icons board. Logo, colors (from the public site), type, and product icons — one pack for site, CRM, email, and composites.</p>
+
+  <aside class="tm-lock" id="tm-colors" aria-label="Trademark logo colors — never change">
+    <p class="tm-kicker">Trademark · locked</p>
+    <h2>Logo colors will never change.</h2>
+    <p>The iDONATEpro wordmark is trademarked. Always use the exact TM file (<code style="color:#7BC143">logos/wordmark.svg</code>). Never recolor. Never substitute CSS <code style="color:#94a3b8">--brand</code> greens. Exact TM colors only:</p>
+    <div class="tm-swatches">
+      <div class="tm-swatch">
+        <div class="tm-chip" style="background:#7BC143"></div>
+        <div>
+          <strong>Green</strong>
+          <code>#7BC143</code>
+          <span>i-dot + “pro”</span>
+        </div>
+      </div>
+      <div class="tm-swatch">
+        <div class="tm-chip" style="background:#666666"></div>
+        <div>
+          <strong>Gray</strong>
+          <code style="color:#e2e8f0">#666666</code>
+          <span>“DONATE”</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
 
   <article class="row" id="name">
     <h2>Name <span>exact casing · TM wordmark only</span></h2>
@@ -146,7 +204,7 @@
 
   <article class="row" id="logo">
     <h2>Logo <span>trademark — colors locked</span></h2>
-    <p class="sub" style="margin:0 0 14px">Exact TM wordmark. Green <code>#7BC143</code> · Gray <code>#666666</code>. Never recolor. On black, keep the mark unchanged on a white pill.</p>
+    <p class="sub" style="margin:0 0 14px"><strong style="color:#020617">Colors never change.</strong> Exact TM wordmark only — Green <code>#7BC143</code> (i-dot + pro) · Gray <code>#666666</code> (DONATE). Never recolor. On black, keep the mark unchanged on a white pill.</p>
     <div class="logo-grid">
       <div class="logo-col">
         <div class="logo-tile light"><img src="logos/wordmark.svg" alt="iDONATEpro trademark wordmark" /></div>
