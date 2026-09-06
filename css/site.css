@@ -825,15 +825,21 @@ a.cap:focus-visible h3 {
 }
 .cap-section-list {
   margin-top: 1.5rem;
-  max-width: 36rem;
+  max-width: none;
 }
 .cap-section-list ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem 1.25rem;
+}
+@media (min-width: 720px) {
+  .cap-section-list ul {
+    /* 7 items → 4 + 3 across two rows */
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 .cap-section-list a {
   display: inline-flex;
