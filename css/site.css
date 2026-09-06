@@ -687,6 +687,10 @@ a.cap:focus-visible h3 {
 .capability-head .icon-box {
   margin-bottom: 0;
   flex-shrink: 0;
+  background: #fff;
+  border: 1.5px solid var(--brand, #7da447);
+  color: var(--brand, #7da447);
+  box-sizing: border-box;
 }
 .capability-copy h2 {
   margin-top: 0.35rem;
@@ -853,7 +857,7 @@ a.cap:focus-visible h3 {
   flex-shrink: 0;
   border-radius: 0.55rem;
   background: #fff;
-  border: 1px solid #d1d5db;
+  border: 1.5px solid var(--brand, #7da447);
   color: var(--brand, #7da447);
   box-sizing: border-box;
 }
