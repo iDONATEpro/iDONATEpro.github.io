@@ -1,0 +1,29 @@
+/* iDONATEpro brand tokens
+   Source: idonatepro.github.io → css/site.css :root (+ supporting hex used on that site)
+   Do not invent new greens. */
+:root {
+  /* Core (from :root) */
+  --brand: #7da447;
+  --brand-strong: #6a8d39;
+  --brand-bright: #7ac142;
+  --brand-soft: #eef5e5;
+  --bg: #f5f8f1;
+  --ink: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+  --navy: #020617; /* Black — label Black, not navy */
+
+  /* Supporting (hard-coded on public site — promote to tokens) */
+  --slate-700: #334155;   /* nav / card text */
+  --slate-500: #64748b;   /* captions, footer meta */
+  --slate-300: #cbd5e1;   /* lede on dark */
+  --slate-400: #94a3b8;   /* quiet on dark */
+  --slate-100: #f1f5f9;   /* subtle borders */
+  --slate-50: #f8fafc;    /* soft panel */
+  --brand-bright-hover: #92d45f; /* .btn-bright:hover */
+  --brand-on-white: #5c7a32;     /* .btn-white text */
+
+  --radius: 28px;
+  --font-display: "Archivo", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}

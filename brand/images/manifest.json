@@ -1,0 +1,309 @@
+{
+  "count": 38,
+  "files": [
+    {
+      "path": "images/logo/mark.png",
+      "folder": "logo",
+      "file": "mark.png",
+      "bytes": 18152,
+      "dims": "800\u00d7147",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-green.png",
+      "folder": "logo",
+      "file": "wordmark-green.png",
+      "bytes": 16370,
+      "dims": "720\u00d7132",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-green.svg",
+      "folder": "logo",
+      "file": "wordmark-green.svg",
+      "bytes": 3790,
+      "dims": "\u2014",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-on-dark.png",
+      "folder": "logo",
+      "file": "wordmark-on-dark.png",
+      "bytes": 13968,
+      "dims": "720\u00d7132",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-on-dark.svg",
+      "folder": "logo",
+      "file": "wordmark-on-dark.svg",
+      "bytes": 3790,
+      "dims": "\u2014",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-on-light.png",
+      "folder": "logo",
+      "file": "wordmark-on-light.png",
+      "bytes": 16542,
+      "dims": "720\u00d7132",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark-on-light.svg",
+      "folder": "logo",
+      "file": "wordmark-on-light.svg",
+      "bytes": 3790,
+      "dims": "\u2014",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark.png",
+      "folder": "logo",
+      "file": "wordmark.png",
+      "bytes": 16171,
+      "dims": "720\u00d7132",
+      "live": true
+    },
+    {
+      "path": "images/logo/wordmark.svg",
+      "folder": "logo",
+      "file": "wordmark.svg",
+      "bytes": 3847,
+      "dims": "\u2014",
+      "live": true
+    },
+    {
+      "path": "images/hero/hero.jpg",
+      "folder": "hero",
+      "file": "hero.jpg",
+      "bytes": 45706,
+      "dims": "613\u00d7348",
+      "live": true
+    },
+    {
+      "path": "images/avatars/campaigns-committees.jpg",
+      "folder": "avatars",
+      "file": "campaigns-committees.jpg",
+      "bytes": 98520,
+      "dims": "450\u00d7450",
+      "live": true
+    },
+    {
+      "path": "images/avatars/political-fundraisers.jpg",
+      "folder": "avatars",
+      "file": "political-fundraisers.jpg",
+      "bytes": 89629,
+      "dims": "450\u00d7450",
+      "live": true
+    },
+    {
+      "path": "images/avatars/regional-parties.jpg",
+      "folder": "avatars",
+      "file": "regional-parties.jpg",
+      "bytes": 93108,
+      "dims": "450\u00d7450",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/calls.png",
+      "folder": "capabilities",
+      "file": "calls.png",
+      "bytes": 92022,
+      "dims": "1265\u00d7795",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/contacts-list.png",
+      "folder": "capabilities",
+      "file": "contacts-list.png",
+      "bytes": 415950,
+      "dims": "1265\u00d72179",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/contacts-michael-profile.png",
+      "folder": "capabilities",
+      "file": "contacts-michael-profile.png",
+      "bytes": 158496,
+      "dims": "1280\u00d7656",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/contacts.png",
+      "folder": "capabilities",
+      "file": "contacts.png",
+      "bytes": 250690,
+      "dims": "1480\u00d7900",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/events-cohosts.png",
+      "folder": "capabilities",
+      "file": "events-cohosts.png",
+      "bytes": 87597,
+      "dims": "1280\u00d7656",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/events-list.png",
+      "folder": "capabilities",
+      "file": "events-list.png",
+      "bytes": 220903,
+      "dims": "1265\u00d71086",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/events.png",
+      "folder": "capabilities",
+      "file": "events.png",
+      "bytes": 128719,
+      "dims": "1265\u00d7853",
+      "live": true
+    },
+    {
+      "path": "images/capabilities/reporting.png",
+      "folder": "capabilities",
+      "file": "reporting.png",
+      "bytes": 138137,
+      "dims": "1265\u00d71438",
+      "live": true
+    },
+    {
+      "path": "images/product/calls-meetings.png",
+      "folder": "product",
+      "file": "calls-meetings.png",
+      "bytes": 92022,
+      "dims": "1265\u00d7795",
+      "live": false
+    },
+    {
+      "path": "images/product/calls-sheet-batch.png",
+      "folder": "product",
+      "file": "calls-sheet-batch.png",
+      "bytes": 272983,
+      "dims": "1265\u00d71836",
+      "live": false
+    },
+    {
+      "path": "images/product/contacts-michael-profile-hero.png",
+      "folder": "product",
+      "file": "contacts-michael-profile-hero.png",
+      "bytes": 158496,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/contacts-office-group-hero.png",
+      "folder": "product",
+      "file": "contacts-office-group-hero.png",
+      "bytes": 131298,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/contacts-office-group.png",
+      "folder": "product",
+      "file": "contacts-office-group.png",
+      "bytes": 415950,
+      "dims": "1265\u00d72179",
+      "live": false
+    },
+    {
+      "path": "images/product/event-dundies-attendees.png",
+      "folder": "product",
+      "file": "event-dundies-attendees.png",
+      "bytes": 168139,
+      "dims": "1265\u00d71082",
+      "live": false
+    },
+    {
+      "path": "images/product/event-dundies-cohosts.png",
+      "folder": "product",
+      "file": "event-dundies-cohosts.png",
+      "bytes": 88912,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/event-dundies-detail-hero.png",
+      "folder": "product",
+      "file": "event-dundies-detail-hero.png",
+      "bytes": 112916,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/event-dundies-detail.png",
+      "folder": "product",
+      "file": "event-dundies-detail.png",
+      "bytes": 128719,
+      "dims": "1265\u00d7853",
+      "live": false
+    },
+    {
+      "path": "images/product/event-dundies-financials.png",
+      "folder": "product",
+      "file": "event-dundies-financials.png",
+      "bytes": 89156,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/events-list.png",
+      "folder": "product",
+      "file": "events-list.png",
+      "bytes": 220903,
+      "dims": "1265\u00d71086",
+      "live": false
+    },
+    {
+      "path": "images/product/financials-find.png",
+      "folder": "product",
+      "file": "financials-find.png",
+      "bytes": 138137,
+      "dims": "1265\u00d71438",
+      "live": false
+    },
+    {
+      "path": "images/product/financials-pledges-blocked.png",
+      "folder": "product",
+      "file": "financials-pledges-blocked.png",
+      "bytes": 103168,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/product/office-all-contacts-27.png",
+      "folder": "product",
+      "file": "office-all-contacts-27.png",
+      "bytes": 415910,
+      "dims": "1265\u00d72179",
+      "live": false
+    },
+    {
+      "path": "images/product/office-groups-active.png",
+      "folder": "product",
+      "file": "office-groups-active.png",
+      "bytes": 70389,
+      "dims": "1280\u00d7656",
+      "live": false
+    },
+    {
+      "path": "images/composites/contacts-gold-standard-v1-live.png",
+      "folder": "composites",
+      "file": "contacts-gold-standard-v1-live.png",
+      "bytes": 250690,
+      "dims": "1480\u00d7900",
+      "live": false
+    },
+    {
+      "path": "images/composites/contacts-gold-standard.png",
+      "folder": "composites",
+      "file": "contacts-gold-standard.png",
+      "bytes": 274530,
+      "dims": "1480\u00d7900",
+      "live": false
+    }
+  ]
+}

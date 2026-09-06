@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Brand | iDONATEpro</title>
+<meta name="robots" content="noindex,nofollow">
+<meta name="description" content="iDONATEpro trade-dress brand pack — logo, colors, type, icons." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="colors/tokens.css" />
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    padding: 40px 48px 72px;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    margin: 0 0 6px;
+  }
+  h2 {
+    font-family: var(--font-display);
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  .sub { color: var(--muted); margin: 0 0 28px; max-width: 64ch; line-height: 1.5; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--brand); background: var(--brand-soft);
+    border: 1px solid rgba(125,164,71,0.35);
+    border-radius: 9999px; padding: 6px 12px; margin: 0 0 18px;
+  }
+  .row {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    padding: 20px 22px 18px;
+    margin-bottom: 14px;
+  }
+  .row h2 span { font-weight: 500; color: #94a3b8; font-size: 12px; margin-left: 8px; font-family: var(--font-body); }
+  .swatches { display: flex; flex-wrap: wrap; gap: 12px; }
+  .swatch {
+    width: 112px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: #fff;
+  }
+  .swatch .chip-color { height: 64px; }
+  .swatch .meta { padding: 8px 10px 10px; font-size: 11px; line-height: 1.35; }
+  .swatch .meta strong { display: block; font-size: 12px; color: var(--ink); }
+  .swatch .meta code { color: var(--muted); font-size: 10px; }
+  .logo-grid { display: flex; flex-wrap: wrap; gap: 14px; }
+  .logo-tile {
+    flex: 1 1 220px;
+    min-height: 120px;
+    border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 28px 24px;
+    border: 1px solid var(--line);
+  }
+  .logo-tile img { max-width: 220px; width: 100%; height: auto; display: block; }
+  .logo-tile.light { background: #fff; }
+  .logo-tile.mint { background: var(--brand-soft); }
+  .logo-tile.black { background: var(--navy); border-color: transparent; }
+  .logo-tile .caption {
+    position: absolute; /* unused — captions below */
+  }
+  .logo-col { display: flex; flex-direction: column; gap: 8px; flex: 1 1 220px; }
+  .logo-col .label { font-size: 12px; font-weight: 600; color: var(--muted); }
+  .type-sample { margin: 0; }
+  .type-sample .display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: -0.03em;
+    margin: 0 0 8px;
+  }
+  .type-sample .body {
+    font-family: var(--font-body);
+    font-size: 16px;
+    color: var(--muted);
+    max-width: 52ch;
+    line-height: 1.55;
+  }
+  .type-meta { margin-top: 14px; font-size: 12px; color: #64748b; }
+  .icons { display: flex; flex-wrap: wrap; gap: 12px; }
+  .ibox {
+    width: 56px; height: 56px; border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .ibox svg { width: 40px; height: 40px; display: block; }
+  .mint { background: var(--brand-soft); color: var(--brand); }
+  .on-black { background: var(--navy); color: var(--brand-bright); }
+  .rules { margin: 0; padding-left: 1.1rem; color: var(--muted); font-size: 14px; line-height: 1.55; }
+  .rules li { margin-bottom: 6px; }
+  .rules code { font-size: 12px; background: var(--brand-soft); padding: 1px 6px; border-radius: 6px; color: var(--brand-strong); }
+  .name-lock {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 42px;
+    letter-spacing: -0.03em;
+    margin: 8px 0 6px;
+  }
+  .name-lock .donate { color: var(--brand); }
+  .forbidden { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .forbidden span {
+    font-size: 12px; color: #64748b; text-decoration: line-through;
+    background: #f8fafc; border: 1px solid var(--line); border-radius: 9999px; padding: 4px 10px;
+  }
+
+  .img-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+  .img-card {
+    display: block; background: #fff; border: 1px solid var(--line); border-radius: 16px;
+    overflow: hidden; text-decoration: none; color: inherit;
+  }
+  .img-card:hover { border-color: rgba(125,164,71,0.45); box-shadow: 0 10px 24px rgba(125,164,71,0.12); }
+  .thumb { aspect-ratio: 16/10; background: var(--navy); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .img-meta { padding: 8px 10px 10px; font-size: 11px; line-height: 1.35; }
+  .img-meta strong { display: block; font-size: 12px; word-break: break-all; }
+  .img-meta span { color: #64748b; }
+</style>
+</head>
+<body>
+  <div class="chip">Trade dress · trademarked</div>
+  <h1>Brand pack · iDONATEpro</h1>
+  <p class="sub">Same law as the icons board. Logo, colors (from the public site), type, and product icons — one pack for site, CRM, email, and composites.</p>
+
+  <article class="row" id="name">
+    <h2>Name <span>exact casing · trade dress</span></h2>
+    <div class="name-lock">i<span class="donate">DONATE</span>pro</div>
+    <p class="type-sample body">Lowercase <strong>i</strong>, uppercase <strong>DONATE</strong>, lowercase <strong>pro</strong>. Matches the wordmark. Never rewrite it.</p>
+    <div class="forbidden">
+      <span>IDONATEPRO</span>
+      <span>iDonatePro</span>
+      <span>iDonate Pro</span>
+      <span>iDONATE Pro</span>
+      <span>iDonatePRO</span>
+    </div>
+  </article>
+
+  <article class="row" id="logo">
+    <h2>Logo <span>logos/</span></h2>
+    <div class="logo-grid">
+      <div class="logo-col">
+        <div class="logo-tile light"><img src="logos/wordmark-on-light.svg" alt="iDONATEpro on light" /></div>
+        <div class="label">On light</div>
+      </div>
+      <div class="logo-col">
+        <div class="logo-tile mint"><img src="logos/wordmark-on-light.svg" alt="iDONATEpro on mint" /></div>
+        <div class="label">On mint</div>
+      </div>
+      <div class="logo-col">
+        <div class="logo-tile black"><img src="logos/wordmark-on-dark.svg" alt="iDONATEpro on black" /></div>
+        <div class="label">On black</div>
+      </div>
+    </div>
+  </article>
+
+  <article class="row" id="colors">
+    <h2>Colors <span>from public site css/site.css</span></h2>
+    <div class="swatches" id="swatches"></div>
+  </article>
+
+  <article class="row" id="type">
+    <h2>Type <span>Archivo + Inter</span></h2>
+    <div class="type-sample">
+      <p class="display">Category leader for political fundraising.</p>
+      <p class="body">Inter for UI and body. Archivo for headlines. Same stack as idonatepro.github.io.</p>
+      <p class="type-meta">Display: Archivo 500–800 · Body: Inter 400–700</p>
+    </div>
+  </article>
+
+  <article class="row" id="icons">
+    <h2>Icons <span>locked kit → /workspace/idp-icons/</span></h2>
+    <div class="icons">
+      <div class="ibox mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.2 21.4V10.8L12 2.4l8.8 8.4V21.4H14.8v-7.4H9.2v7.4Z"/></svg></div>
+      <div class="ibox on-black"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.2 21.4V10.8L12 2.4l8.8 8.4V21.4H14.8v-7.4H9.2v7.4Z"/></svg></div>
+      <div class="ibox mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.3" cy="6.2" r="3.8"/><path d="M1.8 21.4v-1.3c0-3.4 2.8-6 6.5-6s6.5 2.6 6.5 6v1.3"/><circle cx="16.7" cy="7.4" r="2.9"/><path d="M22.2 21.4v-1.1c0-2.6-2.1-4.6-4.8-4.6-.85 0-1.65.2-2.35.55"/></svg></div>
+      <div class="ibox on-black"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.3" cy="6.2" r="3.8"/><path d="M1.8 21.4v-1.3c0-3.4 2.8-6 6.5-6s6.5 2.6 6.5 6v1.3"/><circle cx="16.7" cy="7.4" r="2.9"/><path d="M22.2 21.4v-1.1c0-2.6-2.1-4.6-4.8-4.6-.85 0-1.65.2-2.35.55"/></svg></div>
+      <div class="ibox mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1.5v21"/><path d="M18.6 5H8.4c-2.3 0-4 1.7-4 3.6 0 2 1.65 3.35 4.15 3.35h5.1c2.5 0 4.15 1.35 4.15 3.55 0 2.2-1.8 3.8-4.4 3.8H5.6"/></svg></div>
+      <div class="ibox on-black"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1.5v21"/><path d="M18.6 5H8.4c-2.3 0-4 1.7-4 3.6 0 2 1.65 3.35 4.15 3.35h5.1c2.5 0 4.15 1.35 4.15 3.55 0 2.2-1.8 3.8-4.4 3.8H5.6"/></svg></div>
+    </div>
+    <p class="type-meta" style="margin-top:12px">Full board: <a href="https://idonatepro.github.io/icons/">/icons/</a> · stroke 2 · no Lucide</p>
+  </article>
+
+    <article class="row" id="images">
+    <h2>Owned images <span>public site + more</span></h2>
+    <p class="sub" style="margin:0 0 8px">38 files in <code>images/</code>. Full table: <code>images/MANIFEST.md</code>. Icon SVGs stay in the locked icon kit.</p>
+  </article>
+  <article class="row" id="img-logo">
+    <h2>Logo <span>Wordmark + mark — trade dress casing iDONATEpro</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/logo/mark.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/mark.png" alt="mark.png" loading="lazy" /></div><div class="img-meta"><strong>mark.png</strong><span>800×147 · 17 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-green.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-green.png" alt="wordmark-green.png" loading="lazy" /></div><div class="img-meta"><strong>wordmark-green.png</strong><span>720×132 · 15 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-green.svg" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-green.svg" alt="wordmark-green.svg" loading="lazy" /></div><div class="img-meta"><strong>wordmark-green.svg</strong><span>— · 3 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-on-dark.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-on-dark.png" alt="wordmark-on-dark.png" loading="lazy" /></div><div class="img-meta"><strong>wordmark-on-dark.png</strong><span>720×132 · 13 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-on-dark.svg" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-on-dark.svg" alt="wordmark-on-dark.svg" loading="lazy" /></div><div class="img-meta"><strong>wordmark-on-dark.svg</strong><span>— · 3 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-on-light.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-on-light.png" alt="wordmark-on-light.png" loading="lazy" /></div><div class="img-meta"><strong>wordmark-on-light.png</strong><span>720×132 · 16 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark-on-light.svg" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark-on-light.svg" alt="wordmark-on-light.svg" loading="lazy" /></div><div class="img-meta"><strong>wordmark-on-light.svg</strong><span>— · 3 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark.png" alt="wordmark.png" loading="lazy" /></div><div class="img-meta"><strong>wordmark.png</strong><span>720×132 · 15 KB</span></div></a>
+<a class="img-card" href="images/logo/wordmark.svg" target="_blank" rel="noopener"><div class="thumb"><img src="images/logo/wordmark.svg" alt="wordmark.svg" loading="lazy" /></div><div class="img-meta"><strong>wordmark.svg</strong><span>— · 3 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="img-hero">
+    <h2>Hero <span>Public site home hero</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/hero/hero.jpg" target="_blank" rel="noopener"><div class="thumb"><img src="images/hero/hero.jpg" alt="hero.jpg" loading="lazy" /></div><div class="img-meta"><strong>hero.jpg</strong><span>613×348 · 44 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="img-avatars">
+    <h2>Avatars / who it's for <span>Live on home + who-its-for</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/avatars/campaigns-committees.jpg" target="_blank" rel="noopener"><div class="thumb"><img src="images/avatars/campaigns-committees.jpg" alt="campaigns-committees.jpg" loading="lazy" /></div><div class="img-meta"><strong>campaigns-committees.jpg</strong><span>450×450 · 96 KB</span></div></a>
+<a class="img-card" href="images/avatars/political-fundraisers.jpg" target="_blank" rel="noopener"><div class="thumb"><img src="images/avatars/political-fundraisers.jpg" alt="political-fundraisers.jpg" loading="lazy" /></div><div class="img-meta"><strong>political-fundraisers.jpg</strong><span>450×450 · 87 KB</span></div></a>
+<a class="img-card" href="images/avatars/regional-parties.jpg" target="_blank" rel="noopener"><div class="thumb"><img src="images/avatars/regional-parties.jpg" alt="regional-parties.jpg" loading="lazy" /></div><div class="img-meta"><strong>regional-parties.jpg</strong><span>450×450 · 90 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="img-capabilities">
+    <h2>Capabilities <span>Live on /capabilities/</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/capabilities/calls.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/calls.png" alt="calls.png" loading="lazy" /></div><div class="img-meta"><strong>calls.png</strong><span>1265×795 · 89 KB</span></div></a>
+<a class="img-card" href="images/capabilities/contacts-list.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/contacts-list.png" alt="contacts-list.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-list.png</strong><span>1265×2179 · 406 KB</span></div></a>
+<a class="img-card" href="images/capabilities/contacts-michael-profile.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/contacts-michael-profile.png" alt="contacts-michael-profile.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-michael-profile.png</strong><span>1280×656 · 154 KB</span></div></a>
+<a class="img-card" href="images/capabilities/contacts.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/contacts.png" alt="contacts.png" loading="lazy" /></div><div class="img-meta"><strong>contacts.png</strong><span>1480×900 · 244 KB</span></div></a>
+<a class="img-card" href="images/capabilities/events-cohosts.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/events-cohosts.png" alt="events-cohosts.png" loading="lazy" /></div><div class="img-meta"><strong>events-cohosts.png</strong><span>1280×656 · 85 KB</span></div></a>
+<a class="img-card" href="images/capabilities/events-list.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/events-list.png" alt="events-list.png" loading="lazy" /></div><div class="img-meta"><strong>events-list.png</strong><span>1265×1086 · 215 KB</span></div></a>
+<a class="img-card" href="images/capabilities/events.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/events.png" alt="events.png" loading="lazy" /></div><div class="img-meta"><strong>events.png</strong><span>1265×853 · 125 KB</span></div></a>
+<a class="img-card" href="images/capabilities/reporting.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/capabilities/reporting.png" alt="reporting.png" loading="lazy" /></div><div class="img-meta"><strong>reporting.png</strong><span>1265×1438 · 134 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="img-product">
+    <h2>Product shots (owned) <span>Office demo branded CRM captures — more than live site</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/product/calls-meetings.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/calls-meetings.png" alt="calls-meetings.png" loading="lazy" /></div><div class="img-meta"><strong>calls-meetings.png</strong><span>1265×795 · 89 KB</span></div></a>
+<a class="img-card" href="images/product/calls-sheet-batch.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/calls-sheet-batch.png" alt="calls-sheet-batch.png" loading="lazy" /></div><div class="img-meta"><strong>calls-sheet-batch.png</strong><span>1265×1836 · 266 KB</span></div></a>
+<a class="img-card" href="images/product/contacts-michael-profile-hero.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/contacts-michael-profile-hero.png" alt="contacts-michael-profile-hero.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-michael-profile-hero.png</strong><span>1280×656 · 154 KB</span></div></a>
+<a class="img-card" href="images/product/contacts-office-group-hero.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/contacts-office-group-hero.png" alt="contacts-office-group-hero.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-office-group-hero.png</strong><span>1280×656 · 128 KB</span></div></a>
+<a class="img-card" href="images/product/contacts-office-group.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/contacts-office-group.png" alt="contacts-office-group.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-office-group.png</strong><span>1265×2179 · 406 KB</span></div></a>
+<a class="img-card" href="images/product/event-dundies-attendees.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/event-dundies-attendees.png" alt="event-dundies-attendees.png" loading="lazy" /></div><div class="img-meta"><strong>event-dundies-attendees.png</strong><span>1265×1082 · 164 KB</span></div></a>
+<a class="img-card" href="images/product/event-dundies-cohosts.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/event-dundies-cohosts.png" alt="event-dundies-cohosts.png" loading="lazy" /></div><div class="img-meta"><strong>event-dundies-cohosts.png</strong><span>1280×656 · 86 KB</span></div></a>
+<a class="img-card" href="images/product/event-dundies-detail-hero.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/event-dundies-detail-hero.png" alt="event-dundies-detail-hero.png" loading="lazy" /></div><div class="img-meta"><strong>event-dundies-detail-hero.png</strong><span>1280×656 · 110 KB</span></div></a>
+<a class="img-card" href="images/product/event-dundies-detail.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/event-dundies-detail.png" alt="event-dundies-detail.png" loading="lazy" /></div><div class="img-meta"><strong>event-dundies-detail.png</strong><span>1265×853 · 125 KB</span></div></a>
+<a class="img-card" href="images/product/event-dundies-financials.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/event-dundies-financials.png" alt="event-dundies-financials.png" loading="lazy" /></div><div class="img-meta"><strong>event-dundies-financials.png</strong><span>1280×656 · 87 KB</span></div></a>
+<a class="img-card" href="images/product/events-list.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/events-list.png" alt="events-list.png" loading="lazy" /></div><div class="img-meta"><strong>events-list.png</strong><span>1265×1086 · 215 KB</span></div></a>
+<a class="img-card" href="images/product/financials-find.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/financials-find.png" alt="financials-find.png" loading="lazy" /></div><div class="img-meta"><strong>financials-find.png</strong><span>1265×1438 · 134 KB</span></div></a>
+<a class="img-card" href="images/product/financials-pledges-blocked.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/financials-pledges-blocked.png" alt="financials-pledges-blocked.png" loading="lazy" /></div><div class="img-meta"><strong>financials-pledges-blocked.png</strong><span>1280×656 · 100 KB</span></div></a>
+<a class="img-card" href="images/product/office-all-contacts-27.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/office-all-contacts-27.png" alt="office-all-contacts-27.png" loading="lazy" /></div><div class="img-meta"><strong>office-all-contacts-27.png</strong><span>1265×2179 · 406 KB</span></div></a>
+<a class="img-card" href="images/product/office-groups-active.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/product/office-groups-active.png" alt="office-groups-active.png" loading="lazy" /></div><div class="img-meta"><strong>office-groups-active.png</strong><span>1280×656 · 68 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="img-composites">
+    <h2>Composites <span>Marketing overlays</span></h2>
+    <div class="img-grid">
+<a class="img-card" href="images/composites/contacts-gold-standard-v1-live.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/composites/contacts-gold-standard-v1-live.png" alt="contacts-gold-standard-v1-live.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-gold-standard-v1-live.png</strong><span>1480×900 · 244 KB</span></div></a>
+<a class="img-card" href="images/composites/contacts-gold-standard.png" target="_blank" rel="noopener"><div class="thumb"><img src="images/composites/contacts-gold-standard.png" alt="contacts-gold-standard.png" loading="lazy" /></div><div class="img-meta"><strong>contacts-gold-standard.png</strong><span>1480×900 · 268 KB</span></div></a>
+    </div>
+  </article>
+  <article class="row" id="rules">
+    <h2>Do not</h2>
+    <ul class="rules">
+      <li>Change the casing of <code>iDONATEpro</code></li>
+      <li>Invent greens — use tokens from the public site</li>
+      <li>Call <code>#020617</code> navy in copy — it’s Black</li>
+      <li>Swap Lucide / Font Awesome / sticker offsets into product UI</li>
+      <li>Hotlink github.io sprites from the CRM</li>
+    </ul>
+  </article>
+
+<script>
+const colors = [
+  ["brand", "#7da447", "Primary"],
+  ["brand-strong", "#6a8d39", "Hover"],
+  ["brand-bright", "#7ac142", "On black"],
+  ["brand-bright-hover", "#92d45f", "Bright hover"],
+  ["brand-soft", "#eef5e5", "Mint wash"],
+  ["brand-on-white", "#5c7a32", "On white btn"],
+  ["black", "#020617", "Black chrome"],
+  ["ink", "#0f172a", "Body text"],
+  ["muted", "#475569", "Secondary"],
+  ["slate-700", "#334155", "Nav / cards"],
+  ["slate-500", "#64748b", "Captions"],
+  ["slate-300", "#cbd5e1", "Lede on dark"],
+  ["line", "#e2e8f0", "Borders"],
+  ["bg", "#f5f8f1", "Page"],
+  ["white", "#ffffff", "Cards"],
+];
+const root = document.getElementById("swatches");
+for (const [name, hex, use] of colors) {
+  const el = document.createElement("div");
+  el.className = "swatch";
+  el.innerHTML = `<div class="chip-color" style="background:${hex}"></div>
+    <div class="meta"><strong>${name}</strong><code>${hex}</code><br>${use}</div>`;
+  root.appendChild(el);
+}
+</script>
+</body>
+</html>
