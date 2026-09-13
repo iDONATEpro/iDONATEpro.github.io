@@ -908,7 +908,16 @@ a.cap:focus-visible h3 {
   text-transform: uppercase;
   color: #64748b;
 }
-.cap-shot img,
+.cap-shot img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  display: block;
+  background: transparent;
+  padding: 0;
+}
 .capability-copy code {
   font-size: 0.88em;
   background: rgba(15, 23, 42, 0.06);
