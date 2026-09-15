@@ -243,13 +243,20 @@ p, ul { margin: 0; }
 }
 .since-more {
   margin: 0;
-  color: var(--brand-bright);
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 600;
   font-size: clamp(1.02rem, 1.7vw, 1.22rem);
-  letter-spacing: 0.02em;
-  line-height: 1.4;
-  max-width: 34rem;
+  letter-spacing: 0.015em;
+  line-height: 1.45;
+  max-width: 36rem;
+}
+.since-more .u {
+  color: var(--brand-bright);
+  font-weight: 800;
+}
+.since-more .rest {
+  color: #b6bec9;
+  font-weight: 600;
 }
 .since::before {
   content: "";
