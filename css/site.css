@@ -166,6 +166,18 @@ p, ul { margin: 0; }
   .hero-offer .offer-slide { transition: none; }
 }
 .hero h1 { font-size: clamp(2.35rem, 4.4vw, 3.75rem); max-width: 18ch; }
+.hero-kicker {
+  margin: 0 0 0.85rem;
+  max-width: 36rem;
+  font-family: var(--font-display);
+  font-size: clamp(0.78rem, 1.4vw, 0.92rem);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand-bright);
+  line-height: 1.45;
+}
+
 .hero-proof {
   margin: 0; display: grid; gap: 1.85rem; max-width: 36rem;
   text-align: left; justify-items: start;
