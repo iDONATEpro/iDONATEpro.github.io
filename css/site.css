@@ -264,6 +264,17 @@ p, ul { margin: 0; }
   color: #c5ced9;
   font-weight: 500;
 }
+.since-ai {
+  margin: 0.15rem 0 0;
+  color: #c5ced9;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(0.82rem, 1.25vw, 0.95rem);
+  letter-spacing: 0.02em;
+  line-height: 1.35;
+  max-width: 36rem;
+}
+
 .since::before {
   content: "";
   display: block;
