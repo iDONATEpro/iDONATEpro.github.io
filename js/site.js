@@ -70,10 +70,51 @@
   const rotateEl = document.querySelector("[data-rotate]");
   if (rotateEl) {
     const quotes = [
-      { text: "iDONATEpro is simply the best.", name: "Matthew" },
-      { text: "It's given Fundraisers the secret weapon to raising money.", name: "Claire" },
-      { text: "iDONATEpro is so much better for fundraising!", name: "Molly" },
-      { text: "The Cleanest, Easiest to use CRM I have ever used.", name: "Zac" }
+      { text: "iDONATEpro is unmatched.", name: "Claire" },
+      { text: "We spent over $50k trying to modify SalesForce to our needs with an $800/month fee - it…", name: "Lisa" },
+      { text: "We've worked with hundreds of candidates, and we've tried dozens of programs.", name: "Matthew" },
+      { text: "iDONATEpro gives users comprehensive information at their fingertips.", name: "Joanne" },
+      { text: "As Finance Director on a targeted race, my documents, reports, and email blasts must…", name: "Ann" },
+      { text: "iDONATEpro has increased my productivity tenfold.", name: "Ashley" },
+      { text: "I love using iDONATEpro.", name: "Haley" },
+      { text: "I am so impressed with you guy’s customer service and promptness to all my insane questions.", name: "Jenise" },
+      { text: "Thank you so much for your help!", name: "Ieva" },
+      { text: "We used to have Aristotle for our database.", name: "Molly" },
+      { text: "We were using Aristotle's Campaign Manager and it's terrible.", name: "Kayla" },
+      { text: "iDONATEpro is Awesome! I now know what all the great things I heard from other Florida…", name: "Beth" },
+      { text: "I love all the updates you are making!", name: "Julie" },
+      { text: "You guys are ROCK STARS!", name: "Janel" },
+      { text: "Your product is amazing! I was SVP for both DDC Advocacy and Aristotle and I say this with…", name: "Holly" },
+      { text: "Thanks for being amazing to work with.", name: "Jessica" },
+      { text: "Y'all are the best!", name: "Hillary" },
+      { text: "This is the best Fundraising database I've ever seen!", name: "Cherish" },
+      { text: "I love how you are making my life easy!", name: "Jack" },
+      { text: "Thank you for getting our data sorted out!", name: "Samantha" },
+      { text: "Thanks so much for all your help – you all are really wonderful!", name: "Julie" },
+      { text: "Thank you for your software!", name: "Jen" },
+      { text: "Damn right! Thanks, you guys are the best.", name: "Samantha" },
+      { text: "You are wonderful, thank you so much!!", name: "Josalun" },
+      { text: "Thank you again for all your help! If you guys ever want a testimonial, let us know.", name: "Tom" },
+      { text: "I can’t say enough good about you guys.", name: "Cindy" },
+      { text: "Your database is awesome, and your customer service is the best I have ever worked with.", name: "Teresa" },
+      { text: "This is Exactly what we have been looking for!", name: "David" },
+      { text: "This right here blows me away.", name: "Sandy" },
+      { text: "Love your awesome customer service!", name: "Janel" },
+      { text: "You are always awesome!", name: "T.W." },
+      { text: "Thank you so much for this super quick turnaround.", name: "Stephanie" },
+      { text: "This is Amazing! This is going to save me so much time! Thank you!", name: "Emily" },
+      { text: "Thank you for working with us over the years while we have been building our business.", name: "Megan" },
+      { text: "Thank you so much for all of the help you are giving me!", name: "Regina" },
+      { text: "I love working in your database!", name: "Roxanne" },
+      { text: "You do such good work!", name: "J.D." },
+      { text: "I have been looking for this for a million years! I am so glad I found you! All the other…", name: "Jess" },
+      { text: "We Love iDONATEpro and Our Clients LOVE the Call Sheets!", name: "Chelsey" },
+      { text: "This is awesome!! Thank you so much!! :)", name: "Stephanie" },
+      { text: "Really appreciate all you and your team are doing to support us!", name: "Michelle" },
+      { text: "This is the Cleanest, Easiest to use CRM database I have ever used, and I have used a ton…", name: "Zac" },
+      { text: "We wanted you to know this has been a HUGE help and we are really grateful!", name: "Kelly" },
+      { text: "This is Exactly what we Need.", name: "Casey" },
+      { text: "Just wanted to send a note to say thank you all for operating such an amazing database…", name: "Corinne" }
     ];
     rotateEl.innerHTML = "";
     const slides = quotes.map((q, idx) => {
@@ -90,23 +131,7 @@
         slides[i].classList.remove("is-active");
         i = (i + 1) % slides.length;
         slides[i].classList.add("is-active");
-      }, 4500);
-    }
-  }
-
-  const offerEl = document.querySelector("[data-offer-rotate]");
-  if (offerEl) {
-    const slides = Array.from(offerEl.querySelectorAll(".offer-slide"));
-    if (slides.length > 1) {
-      let i = 0;
-      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      if (!reduceMotion) {
-        setInterval(() => {
-          slides[i].classList.remove("is-active");
-          i = (i + 1) % slides.length;
-          slides[i].classList.add("is-active");
-        }, 5500);
-      }
+      }, 7000);
     }
   }
 
