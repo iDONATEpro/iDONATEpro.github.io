@@ -961,8 +961,10 @@ a.cap:focus-visible h3 {
 .cap-shot img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  max-width: 100%;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
   border-radius: 1.25rem;
   display: block;
   background: transparent;
