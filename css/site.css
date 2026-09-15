@@ -243,20 +243,26 @@ p, ul { margin: 0; }
 }
 .since-more {
   margin: 0;
+  color: #e8edf4;
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 500;
   font-size: clamp(1.02rem, 1.7vw, 1.22rem);
-  letter-spacing: 0.015em;
+  letter-spacing: 0.01em;
   line-height: 1.45;
   max-width: 36rem;
 }
-.since-more .u {
-  color: var(--brand-bright);
+.since-more .lead {
+  color: #fff;
   font-weight: 800;
 }
-.since-more .rest {
-  color: #b6bec9;
-  font-weight: 600;
+.since-more .dot {
+  color: var(--brand-bright);
+  font-weight: 700;
+  margin: 0 0.15em;
+}
+.since-more .tail {
+  color: #c5ced9;
+  font-weight: 500;
 }
 .since::before {
   content: "";
