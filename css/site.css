@@ -241,6 +241,16 @@ p, ul { margin: 0; }
 @media (max-width: 639px) {
   .since { white-space: normal; }
 }
+.since-more {
+  margin: 0;
+  color: var(--brand-bright);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.02rem, 1.7vw, 1.22rem);
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  max-width: 34rem;
+}
 .since::before {
   content: "";
   display: block;
