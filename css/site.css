@@ -608,7 +608,7 @@ section.hero { padding: 0; }
     padding: 1rem 0;
   }
   .header-contact { justify-content: flex-start; gap: 0.9rem; }
-  .hero-grid { grid-template-columns: 1fr 1fr; }
+  .hero-grid { grid-template-columns: 1fr 1.2fr; }
   .icp-photo { width: 6.5rem; height: 6.5rem; }
   .desktop-nav { display: flex; }
   .header-actions .icon-btn { display: none; }
@@ -622,6 +622,7 @@ section.hero { padding: 0; }
   .contact-meta { text-align: right; }
 }
 @media (min-width: 1280px) {
+  .hero-grid { grid-template-columns: 1fr 1.28fr; }
   .caps-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
