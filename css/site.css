@@ -229,7 +229,7 @@ p, ul { margin: 0; }
 
 .icp-stack {
   display: grid; gap: 1rem; height: 100%;
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .icp-label {
   margin: 0; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.18em;
