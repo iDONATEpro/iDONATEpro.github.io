@@ -245,10 +245,33 @@ p, ul { margin: 0; }
   object-fit: cover; flex-shrink: 0;
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
-.icp-copy h3 { font-size: 1.22rem; color: var(--ink); }
-.icp-copy p { margin-top: 0.45rem; color: #475569; font-size: 0.95rem; line-height: 1.5; }
+.icp-copy h3 {
+  margin: 0;
+  font-size: 1.22rem;
+  color: var(--ink);
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid rgba(122, 193, 66, 0.55);
+}
+.icp-copy p {
+  margin-top: 0.8rem;
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.icp-copy p > strong:first-child {
+  color: #1a2e05;
+  font-size: 1.02rem;
+}
 .icp-card.accent { background: var(--brand); color: #fff; }
+.icp-card.accent .icp-copy h3 {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.4);
+}
 .icp-card.accent p { color: rgba(255,255,255,0.92); }
+.icp-card.accent .icp-copy p > strong:first-child {
+  color: #e8f7d4;
+  font-size: 1.02rem;
+}
 .icp-card.accent .icp-photo { box-shadow: 0 0 0 3px rgba(255,255,255,0.35); }
 
 .kicker { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: var(--brand); }
