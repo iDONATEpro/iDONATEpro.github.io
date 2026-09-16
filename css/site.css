@@ -275,12 +275,13 @@ p, ul { margin: 0; }
 .icp-card.accent .icp-photo { box-shadow: 0 0 0 3px rgba(255,255,255,0.35); }
 
 .icp-whisper {
-  display: block;
-  margin-top: 0.35rem;
+  display: inline;
+  margin-left: 0.25rem;
   font-size: 0.78rem;
   font-style: italic;
   color: #64748b;
   line-height: 1.35;
+  white-space: nowrap;
 }
 .icp-card.accent .icp-whisper {
   color: rgba(255, 255, 255, 0.72);
