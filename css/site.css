@@ -136,7 +136,6 @@ p, ul { margin: 0; }
 .hero-overlay {
   position: absolute; inset: 0;
   background:
-    radial-gradient(circle at top left, rgba(122,193,66,0.42), transparent 42%),
     linear-gradient(105deg, rgba(15,23,42,0.78) 0%, rgba(15,23,42,0.62) 42%, rgba(15,23,42,0.45) 100%);
 }
 .hero-grid { position: relative; display: grid; gap: 2.75rem; padding: 2.4rem 0 4.5rem; align-items: stretch; }
