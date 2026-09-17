@@ -140,17 +140,21 @@ p, ul { margin: 0; }
     linear-gradient(105deg, rgba(15,23,42,0.44) 0%, rgba(15,23,42,0.28) 42%, rgba(15,23,42,0.16) 100%);
 }
 @media (max-width: 767px) {
+  /* Landscape strip so the wide conversation photo can show all three — tall bands force a face zoom */
   .hero-bg {
     inset: auto;
     top: 0; left: 0; right: 0;
-    height: min(52vh, 28rem);
+    height: auto;
+    aspect-ratio: 1920 / 900;
+    max-height: 28vh;
   }
-  .hero-bg img { object-position: center 40%; }
+  .hero-bg img { object-fit: cover; object-position: center center; }
   .hero-overlay {
     background:
-      linear-gradient(180deg, rgba(15,23,42,0.42) 0%, rgba(15,23,42,0.55) 55%, rgba(15,23,42,0.92) 88%, #0f172a 100%),
-      linear-gradient(105deg, rgba(15,23,42,0.50) 0%, rgba(15,23,42,0.28) 55%, rgba(15,23,42,0.18) 100%);
+      linear-gradient(180deg, rgba(15,23,42,0.28) 0%, rgba(15,23,42,0.45) 50%, rgba(15,23,42,0.88) 82%, #0f172a 100%),
+      linear-gradient(105deg, rgba(15,23,42,0.42) 0%, rgba(15,23,42,0.22) 55%, rgba(15,23,42,0.14) 100%);
   }
+  .hero-grid { padding-top: 0.75rem; }
 }
 .hero-grid { position: relative; display: grid; gap: 2.75rem; padding: 2.4rem 0 4.5rem; align-items: stretch; }
 .hero-copy {
