@@ -451,7 +451,7 @@ section.hero { padding: 0; }
 .price-hero {
   position: relative;
   color: #fff;
-  padding: 4.5rem 0 4rem;
+  padding: 4.5rem 0 1.75rem;
   text-align: center;
   overflow: hidden;
   background: #0f172a;
