@@ -448,7 +448,26 @@ section.hero { padding: 0; }
 .quote p { font-size: 1.05rem; line-height: 1.7; color: var(--ink); }
 .quote cite { display: block; margin-top: 1rem; font-style: normal; font-weight: 700; color: var(--brand); }
 
-.price-hero { background: var(--navy); color: #fff; padding: 4rem 0; text-align: center; }
+.price-hero {
+  position: relative;
+  color: #fff;
+  padding: 4.5rem 0 4rem;
+  text-align: center;
+  overflow: hidden;
+  background: #0f172a;
+}
+.price-hero-bg {
+  position: absolute; inset: 0;
+}
+.price-hero-bg img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center 30%;
+  opacity: 0.72;
+}
+.price-hero-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(15,23,42,0.55) 0%, rgba(15,23,42,0.48) 55%, rgba(15,23,42,0.62) 100%);
+}
+.price-hero .wrap { position: relative; z-index: 1; }
 .toggles { margin-top: 2rem; display: flex; flex-direction: column; align-items: center; gap: 1rem; }
 .toggle {
   display: inline-flex; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.1);
