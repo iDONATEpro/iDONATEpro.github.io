@@ -253,9 +253,7 @@
     function refresh() {
       const url = currentUrl();
       if (lede) {
-        lede.textContent = term === "trial"
-          ? "Simple pricing designed to fit any fundraising budget. Free 14-day trial."
-          : "Simple pricing designed to fit any fundraising budget.";
+        lede.textContent = "Onboarding is Simple. We typically have new accounts live in a couple days.";
       }
       trialOnly.forEach((el) => el.classList.toggle("hidden", term !== "trial"));
       if (hint) {
