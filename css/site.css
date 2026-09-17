@@ -140,21 +140,26 @@ p, ul { margin: 0; }
     linear-gradient(105deg, rgba(15,23,42,0.44) 0%, rgba(15,23,42,0.28) 42%, rgba(15,23,42,0.16) 100%);
 }
 @media (max-width: 767px) {
-  /* Landscape strip so the wide conversation photo can show all three — tall bands force a face zoom */
+  /* Photo in flow as a small landscape strip; copy (incl. rotating quotes) sits on hard black below */
+  .hero { background: #000; }
   .hero-bg {
+    position: relative;
     inset: auto;
-    top: 0; left: 0; right: 0;
+    width: 100%;
     height: auto;
     aspect-ratio: 1920 / 900;
     max-height: 28vh;
+    flex-shrink: 0;
   }
   .hero-bg img { object-fit: cover; object-position: center center; }
   .hero-overlay {
-    background:
-      linear-gradient(180deg, rgba(15,23,42,0.28) 0%, rgba(15,23,42,0.45) 50%, rgba(15,23,42,0.88) 82%, #0f172a 100%),
-      linear-gradient(105deg, rgba(15,23,42,0.42) 0%, rgba(15,23,42,0.22) 55%, rgba(15,23,42,0.14) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.25) 55%, #000 100%);
   }
-  .hero-grid { padding-top: 0.75rem; }
+  .hero-grid {
+    position: relative;
+    padding-top: 1.35rem;
+    background: #000;
+  }
 }
 .hero-grid { position: relative; display: grid; gap: 2.75rem; padding: 2.4rem 0 4.5rem; align-items: stretch; }
 .hero-copy {
