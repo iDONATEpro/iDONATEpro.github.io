@@ -245,6 +245,11 @@
       next.title = "iDONATEpro Sign Up";
       next.name = "chargifyframe";
       next.scrolling = "no";
+      next.style.width = "100%";
+      next.style.minHeight = "130rem";
+      next.style.height = "130rem";
+      next.style.border = "0";
+      next.style.display = "block";
       next.setAttribute("sandbox", "allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation");
       next.src = url;
       if (frame) frame.replaceWith(next);
