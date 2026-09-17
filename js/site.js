@@ -244,6 +244,7 @@
       next.id = "chargifyFrame";
       next.title = "iDONATEpro Sign Up";
       next.name = "chargifyframe";
+      next.scrolling = "no";
       next.setAttribute("sandbox", "allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation");
       next.src = url;
       if (frame) frame.replaceWith(next);
@@ -338,6 +339,13 @@
 
 
   window.addEventListener("message", (e) => {
+    if (typeof e.origin === "string" && e.origin.indexOf("chargifypay.com") !== -1) {
+      const data = e.data || {};
+      const height = data.height || data.frameHeight || (data.payload && data.payload.height);
+      const frame = document.getElementById("chargifyFrame");
+      if (height && frame) frame.style.height = Number(height) + "px";
+      return;
+    }
     if (typeof e.origin !== "string" || e.origin.indexOf("calendly.com") === -1) return;
     const data = e.data || {};
     const height = data.payload && data.payload.height;
