@@ -526,6 +526,25 @@ section.hero { padding: 0; }
 }
 .toggle button.active { background: var(--brand-bright); color: #fff; }
 .toggle.light button.active { background: #fff; color: var(--ink); }
+.toggle button[data-cycle="annual"] {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.15;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.cycle-note {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  opacity: 0.8;
+  margin-top: 0.12rem;
+}
+.toggle.light button.active .cycle-note { opacity: 0.72; }
+
 .save { margin-left: 0.5rem; background: var(--brand-bright); color: #fff; border-radius: 9999px; padding: 0.1rem 0.5rem; font-size: 0.7rem; font-weight: 800; }
 
 .plans { display: grid; gap: 1.25rem; margin-top: 1rem; }
