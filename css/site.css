@@ -568,6 +568,18 @@ section.hero { padding: 0; }
 .price strong { font-size: 2.25rem; font-weight: 800; line-height: 1; }
 .price span { color: #64748b; margin-bottom: 0.25rem; font-size: 0.875rem; }
 .plan.featured .price span { color: rgba(255,255,255,0.7); }
+.annual-note {
+  margin: 0.35rem 0 0;
+  color: var(--brand);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+.plan.featured .annual-note { color: var(--brand-bright); }
+.annual-note[hidden] { display: none !important; }
+
 .plan-meta { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid #f1f5f9; display: grid; gap: 0.5rem; font-size: 0.875rem; color: #475569; }
 .plan.featured .plan-meta { border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.85); }
 .plan-actions { margin-top: 1.5rem; display: grid; gap: 0.5rem; }

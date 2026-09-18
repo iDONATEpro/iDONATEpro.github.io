@@ -166,6 +166,9 @@
       suffixEls.forEach((el) => {
         el.textContent = cycle === "monthly" ? "/mo" : "/yr";
       });
+      pricingRoot.querySelectorAll("[data-annual-note]").forEach((el) => {
+        el.hidden = cycle !== "annual";
+      });
       const keys = ["user1", "user2", "office", "enterprise"];
       function signupHref(term, usersKey) {
         let href = "/signup/?term=" + encodeURIComponent(term) + "&users=" + encodeURIComponent(usersKey);
