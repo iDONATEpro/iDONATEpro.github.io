@@ -63,7 +63,13 @@
   const menuBtn = document.querySelector("[data-menu]");
   const panel = document.querySelector("[data-mobile-panel]");
   if (menuBtn && panel) {
+    const closeMenu = () => panel.classList.remove("open");
     menuBtn.addEventListener("click", () => panel.classList.toggle("open"));
+    panel.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", closeMenu);
+    });
+    // bfcache / back-forward can restore the page with the menu still open
+    window.addEventListener("pageshow", closeMenu);
   }
 
 
