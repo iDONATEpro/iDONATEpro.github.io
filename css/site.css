@@ -408,8 +408,11 @@ p, ul { margin: 0; }
 .btn-ghost-light { border: 1px solid rgba(255,255,255,0.2); color: #fff; background: transparent; }
 .btn-ghost-light:hover { background: rgba(255,255,255,0.1); }
 
-section { padding: 6rem 0; }
+section { padding: 2.75rem 0 3.25rem; }
 section.hero { padding: 0; }
+@media (max-width: 767px) {
+  section { padding: 2.1rem 0 2.6rem; }
+}
 .section-intro { max-width: 48rem; }
 .muted { color: var(--muted); margin-top: 1.25rem; font-size: 1.125rem; line-height: 2rem; }
 .cards-3 { margin-top: 3.5rem; display: grid; gap: 1.5rem; }
@@ -570,7 +573,10 @@ section.hero { padding: 0; }
 .cta-band p { color: #cbd5e1; margin-top: 0.75rem; }
 .cta-row { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; }
 
-.page-hero { padding: 2.5rem 0 2.5rem; }
+.page-hero { padding: 1.15rem 0 1.75rem; }
+@media (max-width: 767px) {
+  .page-hero { padding: 0.85rem 0 1.35rem; }
+}
 .prose { max-width: 52rem; }
 .prose h1 { margin-bottom: 1.25rem; }
 .prose h2 { margin: 2.2rem 0 0.8rem; font-size: 1.5rem; }
