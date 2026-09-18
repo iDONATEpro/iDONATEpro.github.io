@@ -516,6 +516,8 @@ section.hero { padding: 0; }
 .save { margin-left: 0.5rem; background: var(--brand-bright); color: #fff; border-radius: 9999px; padding: 0.1rem 0.5rem; font-size: 0.7rem; font-weight: 800; }
 
 .plans { display: grid; gap: 1.25rem; margin-top: 1rem; }
+.pricing-extras { margin-top: 1.75rem; display: grid; gap: 1.25rem; max-width: 40rem; margin-inline: auto; }
+
 .plan {
   position: relative; background: #fff; border: 1px solid var(--line);
   border-radius: var(--radius); padding: 1.75rem; transition: 0.15s ease;
