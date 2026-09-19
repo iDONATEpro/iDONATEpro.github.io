@@ -418,6 +418,32 @@ p, ul { margin: 0; }
   .hero-ctas-mobile .btn { width: 100%; }
 }
 
+.signup-rotate {
+  position: relative;
+  display: grid;
+  align-content: start;
+  width: 100%;
+  min-height: 2.8rem;
+  margin: 0 0 0.15rem;
+  overflow: hidden;
+  color: #e8edf4;
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+}
+.signup-rotate .signup-slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+}
+.signup-rotate .signup-slide.is-active { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .signup-rotate .signup-slide { transition: none; }
+}
+
+
 .btn-ghost-light { border: 1px solid rgba(255,255,255,0.2); color: #fff; background: transparent; }
 .btn-ghost-light:hover { background: rgba(255,255,255,0.1); }
 

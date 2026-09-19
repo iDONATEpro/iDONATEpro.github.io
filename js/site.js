@@ -73,6 +73,23 @@
   }
 
 
+
+  const signupRotate = document.querySelector("[data-signup-rotate]");
+  if (signupRotate) {
+    const slides = Array.from(signupRotate.querySelectorAll(".signup-slide"));
+    if (slides.length > 1) {
+      let i = 0;
+      const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduceMotion) {
+        setInterval(() => {
+          slides[i].classList.remove("is-active");
+          i = (i + 1) % slides.length;
+          slides[i].classList.add("is-active");
+        }, 7000);
+      }
+    }
+  }
+
   const rotateEl = document.querySelector("[data-rotate]");
   if (rotateEl) {
     const quotes = [
