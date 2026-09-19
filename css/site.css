@@ -753,7 +753,28 @@ section.hero { padding: 0; }
 .calendly-wrap { border-radius: var(--radius); overflow: hidden; background: #fff; box-shadow: 0 20px 25px -5px rgba(125,164,71,0.1); }
 .calendly-wrap iframe { width: 100%; min-height: 700px; height: 750px; border: 0; display: block; }
 
-.ref-hero { background: var(--navy); color: #fff; padding: 5rem 0; text-align: center; }
+.ref-hero {
+  position: relative;
+  overflow: hidden;
+  background: #0f172a;
+  color: #fff;
+  padding: 3.25rem 0 3.5rem;
+  text-align: center;
+}
+.ref-hero-bg { position: absolute; inset: 0; }
+.ref-hero-bg img {
+  width: 100%; height: 100%; object-fit: cover; object-position: center 35%;
+  opacity: 0.88;
+}
+.ref-hero-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(15,23,42,0.62) 0%, rgba(15,23,42,0.55) 45%, rgba(15,23,42,0.72) 100%);
+}
+.ref-hero .wrap-narrow { position: relative; z-index: 1; }
+@media (max-width: 767px) {
+  .ref-hero { padding: 1.75rem 0 2.25rem; }
+  .ref-hero-bg img { object-position: center 30%; }
+}
 .gift svg { width: 2.5rem; height: 2.5rem; display: block; }
 .gift {
   width: 4rem; height: 4rem; margin: 0 auto 1.5rem; border-radius: 1rem;
