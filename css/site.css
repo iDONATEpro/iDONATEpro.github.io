@@ -70,6 +70,19 @@ p, ul { margin: 0; }
 }
 .btn-contact:hover { background: transparent; color: var(--brand); }
 .header-actions { grid-area: actions; display: flex; align-items: center; gap: 0.75rem; }
+
+.header-pricing {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #334155;
+  padding: 0.35rem 0.25rem;
+  white-space: nowrap;
+}
+.header-pricing:hover { color: var(--brand); }
+@media (min-width: 1024px) {
+  .header-pricing { display: none; }
+}
+
 .desktop-nav { display: none; align-items: center; gap: 1.25rem; margin-right: 0.5rem; }
 .desktop-nav a { font-size: 0.875rem; font-weight: 600; color: #334155; }
 .desktop-nav a:hover { color: var(--brand); }
