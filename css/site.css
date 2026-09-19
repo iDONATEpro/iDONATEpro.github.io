@@ -440,6 +440,17 @@ p, ul { margin: 0; }
   line-height: 1.4;
   text-align: center;
 }
+.signup-whisper a {
+  color: #94a3b8;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.signup-whisper a:hover { color: var(--brand-bright); }
+.signup-whisper-desktop { display: none; text-align: left; margin: 0.85rem 0 0.35rem; }
+@media (min-width: 768px) {
+  .signup-whisper-desktop { display: block; }
+}
 
 
 .btn-ghost-light { border: 1px solid rgba(255,255,255,0.2); color: #fff; background: transparent; }
